@@ -1,5 +1,5 @@
- ---
- layout: default
- title: Title of page
- nav_order: 1
- ---
+---
+layout: default
+title: Title of page
+nav_order: 1
+---
