@@ -1,5 +1,13 @@
 ---
 layout: default
-title: Home
+title: Goals
 nav_order: 1
 ---
+
+This workshop introduces complete beginners to the ArcGIS Online platform and tools. This workshop is intended for those not familiar with GIS software or code but who want to create a map and add it to a Story Map or incorporate simple spatial analysis into their work. To learn how to create a web map using Leaflet, check out the Intro to Web Maps workshop offered by the Research Commons. By the end of this workshop participants will be able to:
+•	Discover and explore available geospatial data online
+•	Add data to a map 
+•	Symbolize data
+•	Configure pop-ups
+•	Embed a map in a Story Map
+•	Add photos and text to a Story Map
