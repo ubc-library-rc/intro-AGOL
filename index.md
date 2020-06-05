@@ -29,8 +29,8 @@ Download [Data](https://github.com/UBCGeodata/ubcv-biodiversity/blob/master/Habi
 
 **Other Geospatial Information Resources at UBC:**
 
-  - General Informational website for all things UBC GIS: gis.ubc.ca
-  - UBC Library's guide for finding and working with GIS resources: guides.library.ubc.ca/gis
+  - General Informational website for all things UBC GIS: <gis.ubc.ca>
+  - UBC Library's guide for finding and working with GIS resources: <guides.library.ubc.ca/gis>
   - UBC's GIS email list: [UBC GIS ListServ](https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&A=1)
-  - UBC's GIS Slack (create your own channel or lurk!): ubcgis.slack.com
+  - UBC's GIS Slack (create your own channel or lurk!): <ubcgis.slack.com>
   - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
