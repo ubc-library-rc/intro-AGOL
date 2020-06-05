@@ -23,9 +23,9 @@ Click **Create an account**.
 
 Under Create a free public account, click **Create an ArcGIS Public Account** and follow the instructions.
 
-You will also need to download data. Click on the 'Download Data' button below to start the download. Once complete, extract the contents of the .zip file. This data comes from UBC's Geodata repository on GitHub: <https://github.com/UBCGeodata>. For this workshop, we will be working with a [shapefile](https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm) of habitat classification of UBC’s campus.
+You will also need to download data. Click on the 'Download Data' button below to start the download. Once complete, extract the contents of the .zip file. This data comes from the [City of Vancouver](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/). For this workshop, we will download a CSV file of 2016 Census data for Vancouver.
 
-Download [Data](https://github.com/UBCGeodata/ubcv-biodiversity/blob/master/Habitat_Classification/Habitat_Classification.zip){: .btn .btn-blue }
+Download [Data](https://webtransfer.vancouver.ca/opendata/csv/CensusLocalAreaProfiles2016.csv){: .btn .btn-blue }
 
 **Other Geospatial Information Resources at UBC:**
 
