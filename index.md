@@ -9,17 +9,12 @@ nav_order: 1
 ## Goals
 This workshop introduces complete beginners to the ArcGIS Online platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to create a map and add it to a Story Map or incorporate simple spatial analysis into their work. By the end of this workshop participants will be able to:
 
-  •	Discover and explore available geospatial data online
-
-  •	Add data to a map 
-
-  •	Symbolize data
-
-  •	Configure pop-ups
-
-  •	Embed a map in a Story Map
-
-  •	Add photos and text to a Story Map
+  - Discover and explore available geospatial data online
+  - Add data to a map 
+  - Symbolize data
+  - Configure pop-ups
+  - Embed a map in a Story Map
+  - Add photos and text to a Story Map
 
 ## Setup
 You will need to sign up for a free ArcGIS public [account](https://www.arcgis.com/home/signin.html) ahead of time. If you already have an account with Esri, you can choose to use your regular sign in or create a separate free account.
