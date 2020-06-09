@@ -8,7 +8,7 @@ has_children: true
 # Create a Web Map
 A web map, simply put, is an interactive map. Esri's online platform, called ArcGIS Online, provides an easy way to create a web map. If you haven't done so already, sign into the ArcGIS Online (AGOL) public account you created before. 
 
-(https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/homeRibbon.jpg)
+From the ribbon at the top of the page, click on the Map tab. ![Map tab](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/homeRibbon.jpg)
 
 This will open a new map.
 
@@ -19,7 +19,7 @@ In the upper left portion of the map are several interactive icons. The + and â€
 If you want to zoom in to a particular location, hold down the Shift key and then drag your mouse arount the area you are interested in. 
 The house icon in the upper left returns the screen to the same extent as it was when you opened it. If you zoom in to a different area and save this map, the next time you open it, it will open at the extent that it was when you saved it.
 
-![The location icon](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/locationButton.jpg) in the upper left uses your location to zoom to where you are on the map, unless it is unable to track your location. 
+The location icon![The location icon](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/locationButton.jpg) in the upper left uses your location to zoom to where you are on the map, unless it is unable to track your location. 
 
 You can also search by address or place in the search bar in the upper right. Try searching for the University of British Columbia.
 
