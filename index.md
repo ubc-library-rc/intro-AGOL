@@ -4,6 +4,8 @@ title: Introduction
 nav_order: 1
 ---
 
+## Note: this workshop is in development and not yet complete.
+
 # Intro to ArcGIS Online and Story Maps
 
 ### **Goals**
