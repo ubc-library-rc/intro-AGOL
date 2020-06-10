@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Title of page, will appear in left navigation menu
+title: Add Data From Living Atlas
 nav_order: 1
-parent: create-a-web-map
+parent: Create a Web Map
 ---
 
 To Do {: .label .label-green }
@@ -26,6 +26,10 @@ The **Topographic** layer represents the default basemap whenever you open a web
 To Do {: .label .label-green }
 From the upper left, click on **Basemap** and select the **Light Gray Canvas**.
 Click on the **Save** dropdown arrow in the ribbon above the map and select **Save**.
+You will need to give the map a title, add tags to make it discoverable later, and a summary.
+Call your map **COVID-19 Cases**
+Add these tags: COVID-19, Canada
+Summary: You can create your own summary or say: Map created as part of Intro to AGOL workshop.
 
 Now let's explore different ways of discovering the underlying data.
 
@@ -39,4 +43,6 @@ You'll see that this layer is depicted using the symbol of a black X.
 To Do {: .label .label-green }
 Click on the first layer in the **Contents** pane to explore the data and the tools associated with each layer.
 ![deathsLyr.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/deathsLyr.jpg)
+
+
 
