@@ -7,7 +7,9 @@ parent: Create a Web Map
 
 To Do
 {: .label .label-green }
-On the ribbon on the left, click the **Add** dropdown arrow and select **Browse Living Atlas Layers**. The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of geographic information compiled and created by [Esri.](https://www.esri.com/en-us/home) In the search bar, type “COVID-19 Canada” to see what layers may be available. Click on “Coronavirus COVID-19 Cases V2.” An information dialogue will open with information about this layer.   
+On the ribbon on the left, click the **Add** dropdown arrow and select **Browse Living Atlas Layers**. The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of geographic information compiled and created by [Esri.](https://www.esri.com/en-us/home) 
+
+In the search bar, type “COVID-19 Canada” to see what layers may be available. Click on “Coronavirus COVID-19 Cases V2.” An information dialogue will open with information about this layer.   
 
 ![add_LA_data](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/add_LA_data.png)
 
@@ -34,7 +36,7 @@ Call your map **COVID-19 Cases**
 
 Add these tags: COVID-19, Canada
 
-Summary: You can create your own summary or say: Map created as part of Intro to AGOL workshop.
+Summary: Map created as part of Intro to AGOL workshop.
 
 Now let's explore different ways of discovering the underlying data.
 
@@ -44,8 +46,11 @@ Click on the red circle located in British Columbia to view a pop-up containing 
 
 ![covidCases.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/covidCases.jpg)
 
-You'll notice that there are three entries for British Columbia with the same information. In the **Contents** pane on the left, there are four layers associated with the data we added from the Living Atlas. Uncheck the blue checkmarks next to every layer except the layer representing **Deaths**. 
-You'll see that this layer is depicted using the symbol of a black X.
+You'll notice that there are three entries for British Columbia with the same information. 
+
+In the **Contents** pane on the left, there are four layers associated with the data we added from the Living Atlas. 
+
+Uncheck the blue checkmarks next to every layer except the layer representing **Deaths**. You'll see that this layer is depicted using the symbol of a black X.
 
 To Do
 {: .label .label-green }
