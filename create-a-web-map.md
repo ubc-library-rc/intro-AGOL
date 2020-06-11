@@ -31,6 +31,6 @@ The Measure tool allows you to select a unit and measure a route you create by c
 
 You can also create bookmarks using the Bookmarks tool by bookmarking different locations and saving your map.
 
-Now we’ll try adding data to the map using different methods.
+Next we’ll try adding data to the map using different methods.
 
 
