@@ -24,39 +24,5 @@ You may notice that the data for Canada is less detailed than the data for the U
 Click on **Content** in the upper left to see the different layers currently in the map. 
 ![content](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content.jpg)
 
-The **Topographic** layer represents the default basemap whenever you open a web map in AGOL. Let's change the basemap to something that looks better with the COVID-19 data.
-
-To Do 
-{: .label .label-green }
-From the upper left, click on **Basemap** and select the **Light Gray Canvas**.
-Click on the **Save** dropdown arrow in the ribbon above the map and select **Save**.
-You will need to give the map a title, add tags to make it discoverable later, and a summary.
-
-Call your map **COVID-19 Cases**
-
-Add these tags: COVID-19, Canada
-
-Summary: Map created as part of Intro to AGOL workshop.
-
-Now let's explore different ways of discovering the underlying data.
-
-To Do
-{: .label .label-green }
-Click on the red circle located in British Columbia to view a pop-up containing information about the number of confirmed, recovered, deaths, and active cases of COVID-19.
-
-![covidCases.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/covidCases.jpg)
-
-You'll notice that there are three entries for British Columbia with the same information. 
-
-In the **Contents** pane on the left, there are four layers associated with the data we added from the Living Atlas. 
-
-Uncheck the blue checkmarks next to every layer except the layer representing **Deaths**. You'll see that this layer is depicted using the symbol of a black X.
-
-To Do
-{: .label .label-green }
-Click on the first layer in the **Contents** pane to explore the data and the tools associated with each layer.
-
-![deathsLyr.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/deathsLyr.jpg)
-
 
 
