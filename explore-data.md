@@ -29,15 +29,21 @@ Hovering over the next icon reveals that clicking on this will open the attribut
 
 To Do
 {: .label .label-green }
-Click on the first row in the table and then click the three grey lines in the upper left of the table and select **Center on Selection**.
+Click on the first row in the table and then click the three grey lines in the upper right of the table and select **Center on Selection**.
 Then click **Clear Selection**.
 
 Next, from the same place, select **Filter**. This will open a window where you can customize an expression to select only the records you specify.
+
 Let's filter the data in order to find those places in the world that have surpassed 10,000 deaths from COVID-19.
+
 From the dropdown arrow on the left, select the **Deaths** field.
+
 From the dropdown arrow in the centre, select **is greater than**.
+
 In the far right field, type in **10000**.
+
 Then click **APPLY FILTER AND ZOOM TO**.
+
 Close the attribute table.
 
 Around the world, Sao Paulo, Brazil, the UK, New York, and Lombardia, Italy have all surpassed 10,000 deaths from COVID-19.
