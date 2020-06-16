@@ -5,6 +5,8 @@ nav_order: 2
 parent: Create a Web Map
 ---
 
+## CHANGE THE BASEMAP
+
 The **Topographic** layer represents the default basemap whenever you open a web map in AGOL. Let's change the basemap to something that looks better with the COVID-19 data.
 
 To Do 
