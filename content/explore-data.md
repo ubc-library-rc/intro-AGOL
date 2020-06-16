@@ -5,6 +5,8 @@ nav_order: 3
 parent: Create a Web Map
 ---
 
+##  EXPLORE DATA LAYERS
+
 To Do
 {: .label .label-green }
 Click on the red circle located in British Columbia to view a pop-up containing information about the number of confirmed, recovered, deaths, and active cases of COVID-19.
