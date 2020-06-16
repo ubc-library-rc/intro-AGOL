@@ -8,6 +8,8 @@ nav_order: 1
 
 # Intro to ArcGIS Online and Story Maps
 
+## INTRODUCTION
+
 ### **Goals**
 This workshop introduces complete beginners to the [ArcGIS Online](https://www.arcgis.com/home/index.html) platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to create a map and add it to a Story Map or incorporate simple spatial analysis into their work. By the end of this workshop participants will be able to:
 
