@@ -5,6 +5,8 @@ nav_order: 1
 parent: Create a Web Map
 ---
 
+## ADD DATA FROM LIVING ATLAS
+
 To Do
 {: .label .label-green }
 On the ribbon on the left, click the **Add** dropdown arrow and select **Browse Living Atlas Layers**. The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of geographic information compiled and created by [Esri.](https://www.esri.com/en-us/home) 
