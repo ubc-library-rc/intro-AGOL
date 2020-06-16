@@ -20,7 +20,7 @@ From the dropdown arrow, select **Cartography**.
 
 Scroll down to select the symbol below. Accept the default size.
 
-![cartoSymbol.jpg](https://github.com/fiddleHeads/intro-AGOL/blob/master/cartoSymbol.jpg)
+![cartoSymbol.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/cartoSymbol.jpg)
 
 Click **OK**.
 
@@ -47,9 +47,8 @@ Click the **Change Styles** icon again and click the **SELECT** button under **H
 
 From the dropdown above, select **Deaths**. The default is **Location**.
 
-Click **DONE*.
+Click **DONE**.
 
 Turn off the original **Deaths** layer by unchecking it.
 
-The **Heat Map** symbology represents higher densities by color. 
-Read more about [Heat Maps in GIS](https://www.gislounge.com/heat-maps-in-gis/).
+The [**Heat Map**](https://www.gislounge.com/heat-maps-in-gis/) symbology represents higher densities by color.
