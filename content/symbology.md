@@ -7,3 +7,49 @@ parent: Create a Web Map
 
 ## SYMBOLOGY
 
+To Do
+{: .label .label-green }
+Click on the third icon from the right underneath the **Deaths** layer called **Change Style**.
+
+Click on **OPTIONS** under the **Location (Single Symbol)** window.
+
+In the next dialog, click on **Symbols**.
+A dialog box will open.
+
+From the dropdown arrow, select **Cartography**.
+
+Scroll down to select the symbol below. Accept the default size.
+
+![cartoSymbol.jpg](https://github.com/fiddleHeads/intro-AGOL/blob/master/cartoSymbol.jpg)
+
+Click **OK**.
+
+Notice that you can also adjust the transparency of the layer and the visible range. 
+For our purposes, we'll accept the defaults.
+
+Click **OK**.
+
+Then click **Done**.
+
+The distribution of deaths across the world is now much more visible.
+
+But because the data is represented differently depending on the country, the symbology does not accurately represent the number of deaths per country. As mentioned before, some countries have death counts by city, some by county, and some only at the country level.
+
+Let's experiment with another kind of symbology.
+
+To Do
+{: .label .label-green }
+Click the ellipsis (the three dots) under the **Deaths** layer and select **Copy**.
+
+This will create a copy of the **Deaths** layer. 
+
+Click the **Change Styles** icon again and click the **SELECT** button under **Heat Map**.
+
+From the dropdown above, select **Deaths**. The default is **Location**.
+
+Click **DONE*.
+
+Turn off the original **Deaths** layer by unchecking it.
+
+The **Heat Map** symbology represents higher densities by color. 
+Read more about [Heat Maps in GIS](https://www.gislounge.com/heat-maps-in-gis/).
