@@ -27,9 +27,9 @@ Click **Create an account**.
 
 Under Create a free public account, click **Create an ArcGIS Public Account** and follow the instructions.
 
-You will also need to download data. Click on the 'Download Data' button below to start the download. Once complete, extract the contents of the .zip file. This data comes from the [City of Vancouver](https://opendata.vancouver.ca/explore/dataset/census-local-area-profiles-2016/information/). For this workshop, we will download a CSV file of 2016 Census data for Vancouver.
+You will also need to download data. Click on the 'Download Data' button below to start the download. Once complete, extract the contents of the .zip file. This data comes from the [City of Vancouver](https://opendata.vancouver.ca/pages/home/). For this workshop, we will download a [geoJSON](https://geojson.org/) file of homeless shelter locations for Vancouver.
 
-Download [Data](https://webtransfer.vancouver.ca/opendata/csv/CensusLocalAreaProfiles2016.csv){: .btn .btn-blue }
+Download [Data](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/download/?format=geojson&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
 
 **Other Geospatial Information Resources at UBC:**
 
