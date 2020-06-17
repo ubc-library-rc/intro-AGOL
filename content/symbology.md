@@ -51,4 +51,8 @@ Click **DONE**.
 
 Turn off the original **Deaths** layer by unchecking it.
 
-The [**Heat Map**](https://www.gislounge.com/heat-maps-in-gis/) symbology represents higher densities by color.
+The [**Heat Map**](https://www.gislounge.com/heat-maps-in-gis/) symbology represents higher densities by color and is a good way to be able to immediately visually locate the areas of greatest concentration of COVID-19-related deaths.
+
+Save your map.
+
+In the next section you'll learn how to add your own data to a web map.
