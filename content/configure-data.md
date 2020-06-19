@@ -23,9 +23,35 @@ There are default colors representing yes/no values as well as a count of each.
 Let's change the symbology.
 
 Click on the red dot currently representing those shelters where pets are not accepted.
-Select **SHAPE** and then from the dropdown arrow, select **People Places**. 
+Select **SHAPE** and then from the dropdown arrow, select **General Infrastructure**. 
+Navigate to the house symbol seen below and increase the size to 20.
 
-![redHouse.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/redHouse.jpg)
+![blueHouse.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/blueHouse.jpg)
+
+Next click on the blue dot representing shelters where pets *are* accepted.
+Select **SHAPE** and **Public Safety** from the dropdown and select the grey dog as seen below. 
+Increase the size to 20.
+
+![greydog.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/greyDog.jpg)
 
 Click **OK** and then **DONE**.
 Save the map.
+
+Next change the name of the layer in the **Content** pane.
+Click the ellipsis underneath the **homeless-shelter-locations** layer.
+Select **Rename** and type in **Homeless Shelters That Allow Pets**.
+
+Click on one of the symbols in the map representing locations that allow pets to see the popup.
+
+![popup.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/popup.jpg)
+
+Let's edit the popup to reconfigure the way the information appears when somebody clicks on a symbol.
+
+Click on the ellipsis underneath the layer in the **Content** pane. 
+Select **Configure Pop-up**.
+
+In the **Configure Pop-up**, first add a title: **Homeless Shelter**.
+
+
+
+
