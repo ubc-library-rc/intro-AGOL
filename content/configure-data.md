@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Add and Configure Your Own Data
+title: Configure Your Own Data
 nav_order: 1
 parent: Add Your Own Data
 ---
 
-## ADD AND CONFIGURE YOUR OWN DATA
+## CONFIGURE YOUR OWN DATA
 
 To Do
 {: .label .label-green }
