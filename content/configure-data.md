@@ -9,9 +9,9 @@ parent: Add Your Own Data
 
 To Do
 {: .label .label-green }
-**1:** From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
+**Step 1:** From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
 
-  **1a:** Upload the geoJSON file and click **IMPORT LAYER**.
+   **Step 1a:** Upload the geoJSON file and click **IMPORT LAYER**.
 
 You will automtically be prompted to change the symbology. 
 We are concerned wth which homeless shelters are able to accomodate pets.
