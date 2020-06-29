@@ -91,7 +91,7 @@ Now when you click on one of the symbols in the map, the popup will look like th
 
 As you can see, creating a web map using ArcGIS Online provides a number of preconfigured settings and tools while still giving the user the option to add data, change basemaps, customize symbology, filter the data, and configure popups, among other things.
 
-Using ArcGIS Online, you can also create [StoryMaps](https://storymaps.arcgis.com/stories) and more powerful, customized interactive maps using [WebApp Builder]https://www.esri.com/en-us/arcgis/products/web-appbuilder/overview).
+Using ArcGIS Online, you can also create [StoryMaps](https://storymaps.arcgis.com/stories) and more powerful, customized interactive maps using [WebApp Builder](https://www.esri.com/en-us/arcgis/products/web-appbuilder/overview).
 
 In the next and final section of this workshop, we'll incorporate the web map we just created into a StoryMap.
 
