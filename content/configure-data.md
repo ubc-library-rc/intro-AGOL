@@ -32,9 +32,9 @@ Let's change the symbology.
 
 **Step 6:** Next click on the blue dot representing shelters where pets *are* accepted.
 
-**6a:** Select **SHAPE** and **Public Safety** from the dropdown and select the grey dog as seen below. 
+**Step 6a:** Select **SHAPE** and **Public Safety** from the dropdown and select the grey dog as seen below. 
 
-**6b:** Increase the size to 20.
+**Step 6b:** Increase the size to 20.
 
 ![greydog.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/greyDog.jpg)
 
@@ -70,18 +70,31 @@ This field describes whether the shelter accepts all adults, only youth, or only
 
 Remember that you can open the attribute table to explore the values in the different fields.
 
-**Step 13c:** Click on **facility** and change it to **Facility Name.**
-
-**Step 13d:** Change the following categories under **Field Alias.**
+**Step 13c:** Change the following fields under **Field Alias.**
 
 
 | Original  | Change to |
 | ------------- | ------------- |
+| facility  | Facility Name |
 | carts  | Cart |
 | phone  | Phone Number |
 | pets  | Pets Allowed |
 | meals  | Meals Offered |
 | geo_local_area  | Neighborhood |
+
+**Step 13d:** Click **OK** and then **OK** again. 
+Don't forget to save your map to save the changes you just made.
+
+Now when you click on one of the symbols in the map, the popup will look like this.
+
+![popup_after.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/popup_after.jpg)
+
+As you can see, creating a web map using ArcGIS Online provides a number of preconfigured settings and tools while still giving the user the option to add data, change basemaps, customize symbology, filter the data, and configure popups, among other things.
+
+Using ArcGIS Online, you can also create [StoryMaps](https://storymaps.arcgis.com/stories) and more powerful, customized interactive maps using [WebApp Builder]https://www.esri.com/en-us/arcgis/products/web-appbuilder/overview).
+
+In the next and final section of this workshop, we'll incorporate the web map we just created into a StoryMap.
+
 
 
 
