@@ -11,7 +11,7 @@ To Do
 {: .label .label-green }
 **Step 1:** From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
 
-   **Step 1a:** Upload the geoJSON file and click **IMPORT LAYER**.
+    **Step 1a:** Upload the geoJSON file and click **IMPORT LAYER**.
 
 You will automtically be prompted to change the symbology. 
 We are concerned wth which homeless shelters are able to accomodate pets.
@@ -51,7 +51,9 @@ Click on the ellipsis underneath the layer in the **Content** pane.
 Select **Configure Pop-up**.
 
 In the **Configure Pop-up**, first add a title: **Homeless Shelter**.
-Leave the 
+Click on **Configure Attributes.**
+
+
 
 
 
