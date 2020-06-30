@@ -4,7 +4,7 @@ title: Create a Story Map
 nav_order: 4
 ---
 
-# Create a Story Map
+# CREATE A STORY MAP
 
 Some of you have probably already seen examples of [Story Maps](https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories).
 
