@@ -20,7 +20,8 @@ To start from scratch, go to https://storymaps.arcgis.com/ and click on **New St
 
 For this workshop, we'll use a different method.
 
-To Do {: .label .label-green }
+To Do 
+{: .label .label-green }
 From the top left of your web map, click on the **Home** dropdown arrow and select **Content.**
 
 Click on the web map you created and just exited.
