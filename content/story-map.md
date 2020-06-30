@@ -16,7 +16,7 @@ In this section, we'll add the web map we created to a Story Map and practice ad
 
 There are a couple different ways to create a Story Map.
 
-To start from scratch, go to https://storymaps.arcgis.com/ and click on **New Story.**
+To start from scratch, go to (https://storymaps.arcgis.com/) and click on **New Story.**
 
 For this workshop, we'll use a different method.
 
