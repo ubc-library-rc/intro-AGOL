@@ -9,68 +9,68 @@ parent: Add Your Own Data
 
 To Do
 {: .label .label-green }
-**Step 1:** From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
+From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
 
-**Step 1a:** Upload the geoJSON file and click **IMPORT LAYER**.
+*1*{: .circle .circle-blue} Upload the geoJSON file and click **IMPORT LAYER**.
 
 You will automtically be prompted to change the symbology. 
-We are concerned wth which homeless shelters are able to accomodate pets.
+We want to know which homeless shelters are able to accomodate pets.
 
-**Step 2:** Click the dropdown arrow and select **Pets**. 
+*2*{: .circle .circle-blue} Click the dropdown arrow and select **Pets**. 
 
-**Step 3:** Click on **Options** under **Types (Unique symbols)**.
+*3*{: .circle .circle-blue} Click on **Options** under **Types (Unique symbols)**.
 There are default colors representing yes/no values as well as a count of each.
 Let's change the symbology.
 
-**Step 4:** Click on the red dot currently representing those shelters where pets are not accepted.
+*4*{: .circle .circle-blue} Click on the red dot currently representing those shelters where pets are not accepted.
 
-**Step 5:** Select **SHAPE** and then from the dropdown arrow, select **General Infrastructure**. 
+*5*{: .circle .circle-blue} Select **SHAPE** and then from the dropdown arrow, select **General Infrastructure**. 
 
-**Step 5a:** Navigate to the house symbol seen below and increase the size to 20.
+*6*{: .circle .circle-blue} Navigate to the house symbol seen below and increase the size to 20.
 
 ![blueHouse.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/blueHouse.jpg)
 
-**Step 6:** Next click on the blue dot representing shelters where pets *are* accepted.
+*7*{: .circle .circle-blue} Next click on the blue dot representing shelters where pets *are* accepted.
 
-**Step 6a:** Select **SHAPE** and **Public Safety** from the dropdown and select the grey dog as seen below. 
+*8*{: .circle .circle-blue} Select **SHAPE** and **Public Safety** from the dropdown and select the grey dog as seen below. 
 
-**Step 6b:** Increase the size to 20.
+*9*{: .circle .circle-blue} Increase the size to 20.
 
 ![greydog.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/greyDog.jpg)
 
-**Step 7:** Click **OK** and then **DONE**.
+*10*{: .circle .circle-blue} Click **OK** and then **DONE**.
 
-**Step 8:** Save the map.
+*11*{: .circle .circle-blue} Save the map.
 
 Next change the name of the layer in the **Content** pane.
 
-**Step 9:**  Click the ellipsis underneath the **homeless-shelter-locations** layer.
+*12*{: .circle .circle-blue} Click the ellipsis underneath the **homeless-shelter-locations** layer.
 
-**Step 9a:** Select **Rename** and type in **Homeless Shelters That Allow Pets**.
+*13*{: .circle .circle-blue} Select **Rename** and type in **Homeless Shelters That Allow Pets**.
 
-**Step 10:** Click on one of the symbols in the map representing locations that allow pets to see the popup.
+*14*{: .circle .circle-blue} Click on one of the symbols in the map representing locations that allow pets to see the popup.
 
 ![popup.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/popup.jpg)
 
 Let's edit the popup to reconfigure the way the information appears when somebody clicks on a symbol.
 
-**Step 11:** Click on the ellipsis underneath the layer in the **Content** pane. 
+*15*{: .circle .circle-blue} Click on the ellipsis underneath the layer in the **Content** pane. 
 
-**Step 12:** Select **Configure Pop-up**.
+*16*{: .circle .circle-blue} Select **Configure Pop-up**.
 
-**Step 13:** In the **Configure Pop-up**, first add a title: **Homeless Shelter**.
+*17*{: .circle .circle-blue} In the **Configure Pop-up**, first add a title: **Homeless Shelter**.
 
-**Step 13a:** Click on **Configure Attributes.**
+*18*{: .circle .circle-blue} Click on **Configure Attributes.**
 
 The **Configure Attributes** dialog window will open. 
 
-**Step 13b:** Click on **category** in the **Field Alias** and change it to **Category.**
+*19*{: .circle .circle-blue} Click on **category** in the **Field Alias** and change it to **Category.**
 
 This field describes whether the shelter accepts all adults, only youth, or only men.
 
 Remember that you can open the attribute table to explore the values in the different fields.
 
-**Step 13c:** Change the following fields under **Field Alias.**
+*20*{: .circle .circle-blue} Change the following fields under **Field Alias.**
 
 
 | Original  | Change to |
@@ -82,7 +82,7 @@ Remember that you can open the attribute table to explore the values in the diff
 | meals  | Meals Offered |
 | geo_local_area  | Neighborhood |
 
-**Step 13d:** Click **OK** and then **OK** again. 
+*21*{: .circle .circle-blue} Click **OK** and then **OK** again. 
 Don't forget to save your map to save the changes you just made.
 
 Now when you click on one of the symbols in the map, the popup will look like this.
