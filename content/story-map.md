@@ -24,25 +24,25 @@ To Do
 {: .label .label-green }
 From the top left of your web map, click on the **Home** dropdown arrow and select **Content.**
 
-Click on the web map you created and just exited.
+*1*{: .circle .circle-blue} Click on the web map you created and just exited.
 
 This will take you to the **Overview** page.
 
-On the far right, from the **Create Web App** dropdown, select **StoryMaps.**
+*2*{: .circle .circle-blue} On the far right, from the **Create Web App** dropdown, select **StoryMaps.**
 
 This will take you to a template with your web map already embedded.
 
-Add a title and a subtitle.
+*3*{: .circle .circle-blue} Add a title and a subtitle.
 
-You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title.
+*4*{: .circle .circle-blue} You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title.
 
 Scrolling down, you'll see your interactive web map. The popups will work as you configured them.
 
 Let's add some context before the web map.
 
-Above the web map, click on the + sign to see the options.
+*5*{: .circle .circle-blue} Above the web map, click on the + sign to see the options.
 
-Choose to add a **Heading.**
+*6*{: .circle .circle-blue} Choose to add a **Heading.**
 
 You might ask a question in the heading, such as **Did you know that some homeless shelters accept pets?**
 
@@ -57,9 +57,9 @@ You can change the style of your Story Map in a certain section by choosing to a
 
 You can also change some aspects of the design of your Story Map by clicking the **Design** button at the top right of the page.
 
-When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
+*7*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
 
-By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
+*8*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
 
 
 
