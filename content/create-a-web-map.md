@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create a Web Map
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 
