@@ -46,9 +46,9 @@ Then click **APPLY FILTER AND ZOOM TO**.
 
 Close the attribute table.
 
-Around the world, Sao Paulo, Brazil, the UK, New York, and Lombardia, Italy have all surpassed 10,000 deaths from COVID-19.
+At the time of writing, around the world, Sao Paulo, Brazil, the UK, New York, and Lombardia, Italy have all surpassed 10,000 deaths from COVID-19.
 
-You may notice that the black X symobilizing the **Deaths** layer is very hard to see. In the next section, we will change the symbology of this layer to make it more visible.
+You may notice that the black X symbolizing the **Deaths** layer is very hard to see. In the next section, we will change the symbology of this layer to make it more visible.
 
 
 
