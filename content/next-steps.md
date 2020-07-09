@@ -20,7 +20,7 @@ Learn more about [Story Maps](https://storymaps.arcgis.com/).
 
 Check out examples of [Story Maps](https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories).
 
-Browse Esri's ArcGIS Online [lesson plan gallery](https://learn.arcgis.com/en/gallery/#?q=ArcGIS%20Online), including this 30 minute [Getting Started with ArcGIs Online](https://learn.arcgis.com/en/projects/get-started-with-arcgis-online/) tutorial.
+Browse Esri's ArcGIS Online [lesson plan gallery](https://learn.arcgis.com/en/gallery/#?q=ArcGIS%20Online), including this 30 minute [Getting Started with ArcGIS Online](https://learn.arcgis.com/en/projects/get-started-with-arcgis-online/) tutorial.
 
 
 Thank you for attending today's workshop!
