@@ -11,7 +11,7 @@ To Do
 {: .label .label-green }
 From your web map, click the **Add** dropdown arrow and select **Add Layer From File**.
 
-*1*{: .circle .circle-blue} Upload the geoJSON file and click **IMPORT LAYER**.
+*1*{: .circle .circle-blue} Upload the GeoJSON file and click **IMPORT LAYER**.
 
 You will automtically be prompted to change the symbology. 
 We want to know which homeless shelters are able to accomodate pets.
