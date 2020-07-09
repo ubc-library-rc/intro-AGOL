@@ -30,5 +30,5 @@ The City of Vancouver maintains the [Open Data Portal](https://opendata.vancouve
 
 You should have downloaded this data in preparation for our workshop, but in case you didn't, you can [download](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/download/?format=geojson&timezone=America/Los_Angeles&lang=en) it now. 
 
-In the next section, we'll add this geoJSON file of [homeless shelter locations](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/export/) to our AGOL map.
+In the next section, we'll add this GeoJSON file of [homeless shelter locations](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/export/) to our AGOL map.
 
