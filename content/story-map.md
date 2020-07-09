@@ -16,7 +16,7 @@ In this section, we'll add the web map we created to a Story Map and practice ad
 
 There are a couple different ways to create a Story Map.
 
-To start from scratch, go to (https://storymaps.arcgis.com/) and click on **New Story.**
+To start from scratch, go to [Story Maps](https://storymaps.arcgis.com/) and click on **New Story.**
 
 For this workshop, we'll use a different method.
 
@@ -61,6 +61,10 @@ You can also change some aspects of the design of your Story Map by clicking the
 
 *8*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
 
+Esri recently started promoting this style of the Story Map we have been experimenting with here.
 
+Their older styles, called Classic Story Maps, offer functionality and in some cases, more map-centric Story Maps.
+
+If you are interested in checking out other possibilities, you can tour the Classic Story Map [gallery](https://storymaps-classic.arcgis.com/en/gallery/#s=0&md=storymaps-apps:map-tour).
 
 
