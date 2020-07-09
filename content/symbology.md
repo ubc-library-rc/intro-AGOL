@@ -16,7 +16,7 @@ Click on **OPTIONS** under the **Location (Single Symbol)** window.
 *1*{: .circle .circle-blue} In the next dialog, click on **Symbols**.
 A dialog box will open.
 
-From the dropdown arrow, select **Cartography**.
+From the dropdown arrow, select **Cartographic**.
 
 Scroll down to select the symbol below. Accept the default size.
 
