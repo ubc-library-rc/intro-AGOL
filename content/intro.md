@@ -22,7 +22,7 @@ GIS has interdisciplinary applications.
 
 [Mi'kmaw Place Names Digital Atlas](https://www.mapdev.ca/placenames/#/)
 
-### GIS Software
+### **GIS Software**
 
 **Desktop GIS**
 - [ArcGIS Desktop](https://desktop.arcgis.com/en/)
@@ -34,5 +34,10 @@ GIS has interdisciplinary applications.
 - [ArcGIS Online](https://www.esri.com/en-us/arcgis/products/arcgis-online/overview)
 - [MapBox](https://www.mapbox.com/)
 - [Leaflet](https://leafletjs.com/)
+
+### **Overview of ArcGIS Online**
+- [Web Map](https://doc.arcgis.com/en/arcgis-online/reference/what-is-web-map.htm)
+- [Web AppBuilder](https://www.esri.com/en-us/arcgis/products/arcgis-web-appbuilder/overview)
+- [Story Map](https://storymaps.arcgis.com/)
 
 
