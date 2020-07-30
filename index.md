@@ -6,7 +6,7 @@ nav_order: 1
 
 # Intro to ArcGIS Online and Story Maps
 
-## INTRODUCTION
+## OUTLINE
 
 ### **Goals**
 This workshop introduces complete beginners to the [ArcGIS Online](https://www.arcgis.com/home/index.html) platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to be able to create a map, add their own data, and configure a Story Map. By the end of this workshop participants will be able to:
@@ -18,7 +18,7 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
   - Embed a map in a Story Map
   - Add photos and text to a Story Map
   
-### **Outline**
+### ** Workshop Outline**
 
 - Create two web maps using ArcGIS Online
 - Add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/) and explore this dataset
@@ -39,7 +39,7 @@ You will also need to download data. Click on the 'Download Data' button below t
 
 Download [Data](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/download/?format=geojson&timezone=America/Los_Angeles&lang=en){: .btn .btn-blue }
 
-**Other Geospatial Information Resources at UBC:**
+**Geospatial Information Resources at UBC:**
 
   - General Informational website for all things UBC GIS: [gis.ubc.ca](https://gis.ubc.ca)
   - UBC Library's guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](https://guides.library.ubc.ca/gis)
