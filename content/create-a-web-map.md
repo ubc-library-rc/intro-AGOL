@@ -28,11 +28,9 @@ The location icon![The location icon](https://raw.githubusercontent.com/fiddleHe
 
 *5*{: .circle .circle-blue} From the upper toolbar, play around with the different tools to see how they work. 
 
-*6*{: .circle .circle-blue} You can find directions by typing in an address or by clicking the map to drop a pin.
+*6*{: .circle .circle-blue} The Measure tool allows you to select a unit and measure a route you create by clicking in the map.
 
-*7*{: .circle .circle-blue} The Measure tool allows you to select a unit and measure a route you create by clicking in the map.
-
-*8*{: .circle .circle-blue} You can also create bookmarks using the Bookmarks tool by bookmarking different locations and saving your map.
+*7*{: .circle .circle-blue} You can also create bookmarks using the Bookmarks tool by bookmarking different locations and saving your map.
 
 Next we’ll try adding data to the map using different methods.
 
