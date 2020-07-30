@@ -4,8 +4,6 @@ title: Introduction
 nav_order: 1
 ---
 
-## Note: this workshop is in development and not yet complete.
-
 # Intro to ArcGIS Online and Story Maps
 
 ## INTRODUCTION
@@ -19,6 +17,16 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
   - Configure pop-ups
   - Embed a map in a Story Map
   - Add photos and text to a Story Map
+  
+### **Outline**
+
+- Create two web maps using ArcGIS Online
+- Add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/) and explore this dataset
+- Add your own data and customize its symbology
+- Create a story map using your web map
+
+#### One of the web maps we will build
+![finalMap.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/finalMap.jpg)
 
 ### **Setup**
 You will need to sign up for a free ArcGIS public [account](https://www.arcgis.com/home/signin.html) ahead of time. If you already have an account with Esri, you can choose to use your regular sign in or create a separate free account.
