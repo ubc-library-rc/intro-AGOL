@@ -16,11 +16,9 @@ Click on **OPTIONS** under the **Location (Single Symbol)** window.
 *1*{: .circle .circle-blue} In the next dialog, click on **Symbols**.
 A dialog box will open.
 
-From the dropdown arrow, select **Cartographic**.
+From the default **Shapes**, select the first symbol, a black dot.
 
-Scroll down to select the symbol below. Accept the default size.
-
-![cartoSymbol.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/cartoSymbol.jpg)
+Change the size to **12 points**.
 
 *2*{: .circle .circle-blue} Click **OK**.
 
@@ -41,16 +39,29 @@ Let's experiment with another kind of symbology.
 
 This will create a copy of the **Deaths** layer. 
 
-*4*{: .circle .circle-blue} Click the **Change Styles** icon again and click the **SELECT** button under **Heat Map**.
+*4*{: .circle .circle-blue} Click the **Change Styles** icon again and select **Deaths** from the dropdown under **Choose an attribute to show**.
 
-From the dropdown above, select **Deaths**. The default is **Location**.
+This will prompt the appearance of different symbology options. 
+
+By default **Counts and Amounts (Size)** is selected.
+
+These are also called [proportional symbols](https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/proportional-symbology.htm).
+- Maps using these are a kind of thematic map used to show relative differences in quantities
+
+You can make adjustments to this symbology, but we'll accept the defaults for now.
 
 Click **DONE**.
 
 *5*{: .circle .circle-blue} Turn off the original **Deaths** layer by unchecking it.
 
-The [**Heat Map**](https://www.gislounge.com/heat-maps-in-gis/) symbology represents higher densities by color and is a good way to be able to immediately visually locate the areas of greatest concentration of COVID-19-related deaths.
+The [proportional](http://wiki.gis.com/wiki/index.php/Proportional_symbol_map) symbology is a good way to be able to immediately visually locate the areas with the greatest numbers of COVID-19-related deaths.
+
+Be aware that it is easy to misrepresent data based on the symbology you choose to use. It is worth doing some research to help you decide what symbology choice makes the most sense.
+
+[ArcGIS Online Change Style Quick Reference](https://doc.arcgis.com/en/arcgis-online/create-maps/change-style.htm)
 
 *6*{: .circle .circle-blue} Save your map.
+
+![propMap](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/propMap.jpg)
 
 In the next section you'll learn how to add your own data to a web map.
