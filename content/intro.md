@@ -40,4 +40,9 @@ GIS has interdisciplinary applications.
 - [Web AppBuilder](https://www.esri.com/en-us/arcgis/products/arcgis-web-appbuilder/overview)
 - [Story Map](https://storymaps.arcgis.com/)
 
-
+### **Why Choose ArcGIS Online?**
+- No install necessary
+- Don't have to know any programming languages or how to code
+- No server needed to host your published maps and data
+- Can collaborate on and share maps
+- Can easily embed web maps, apps, and story maps in websites
