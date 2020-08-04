@@ -85,6 +85,8 @@ Remember that you can open the attribute table to explore the values in the diff
 *21*{: .circle .circle-blue} Click **OK** and then **OK** again. 
 Don't forget to save your map to save the changes you just made.
 
+The web map you created should look something like [this](https://arcg.is/1H9mqm0).
+
 Now when you click on one of the symbols in the map, the popup will look like this.
 
 ![popup_after.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/popup_after.jpg)
