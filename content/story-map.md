@@ -19,6 +19,7 @@ They can be used as a presentation tool in place of PowerPoint, especially if yo
 - [Devastation in Nepal: Katmandu Before and After the April 2015 Earthquake](https://arcg.is/1zvCaX)
   - This story map uses Map Series and Swipe story map templates
 - [The GIS community responds to the COVID-19 crisis](https://arcg.is/1qfqiD)
+  - This represents the latest template that we will use today which resembles a scrolling website
 
 In this section, we'll add the web map we created to a Story Map and practice adding other content as well.
 
@@ -41,8 +42,10 @@ This will take you to the **Overview** page.
 This will take you to a template with your web map already embedded.
 
 *3*{: .circle .circle-blue} Add a title and subtitle. You can copy and paste the text below to use.
-Title: Bring Your Pets
-Subtitle: Homeless Shelters in Vancouver That Accept Pets
+
+**Title**: Bring Your Pets
+
+**Subtitle**: Homeless Shelters in Vancouver That Accept Pets
 
 *4*{: .circle .circle-blue} You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title. You might want to add a picture of your own pet. Unfortunately, this section of the story map doesn't support using a URL link for media.
 
@@ -58,6 +61,7 @@ You might ask a question in the heading, such as **Did you know that pets are a 
 
 *7*{: .circle .circle-blue} Add text above the map by clicking on the plus sign and selecting **Text**.
 For each paragraph, click on the plus sign and copy and paste the text in the paragraphs below.
+
 *On June 16, 2020, the news site The Conversation published an article about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.*
 
 *Geographic data on intimate partner violence (IPV) shelters is difficult to find because making their locations known to the public would also make their locations knowable to abusers.*
@@ -67,10 +71,15 @@ For each paragraph, click on the plus sign and copy and paste the text in the pa
 *Assuming that homeless shelters are one place domestic abuse survivors sometimes access for safe harbor, we mapped which homeless shelters in Vancouver allow people to bring their pets.*
 
 *8*{: .circle .circle-blue} Click the plus sign again and select **Image**.
-Use this URL to add this infographic about the relationship between domestic violence and pets. https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domestic-violence_hj86o8-300x266-e1527625140420.png?ssl=1
+Use this URL to add this infographic about the relationship between domestic violence and pets.
+
+https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domestic-violence_hj86o8-300x266-e1527625140420.png?ssl=1
 
 *9*{: .circle .circle-blue} Scroll beneath the web map, click the plus sign, and select **Embed**.
-Use this URL to embed an article from *Seattle DogSpot*. https://www.seattledogspot.com/these-washington-domestic-violence-shelters-allow-dogs/
+Use this URL to embed an article from *Seattle DogSpot*. 
+
+https://www.seattledogspot.com/these-washington-domestic-violence-shelters-allow-dogs/
+
 Hover over the top of the embedded article and select the second icon from the left to view this article as an interactive embed. You can also choose to make it small, medium, or large.
 
 If you have more time, you can experiment with adding more content to your story map. 
