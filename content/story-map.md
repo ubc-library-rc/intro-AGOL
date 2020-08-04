@@ -12,13 +12,21 @@ Anyone with an ArcGIS Online account can create one, and they are a good way to 
 
 They can be used as a presentation tool in place of PowerPoint, especially if you want to incorporate maps or embedded interactive content.
 
+### Examples of Story Maps
+
+- [The Assassination of Abraham Lincoln](https://arcg.is/1LSaGu)
+  - This uses a Map Tour template
+- [Devastation in Nepal: Katmandu Before and After the April 2015 Earthquake](https://arcg.is/1zvCaX)
+  - This story map uses Map Series and Swipe story map templates
+- [The GIS community responds to the COVID-19 crisis](https://arcg.is/1qfqiD)
+
 In this section, we'll add the web map we created to a Story Map and practice adding other content as well.
 
 There are a couple different ways to create a Story Map.
 
 To start from scratch, go to [Story Maps](https://storymaps.arcgis.com/) and click on **New Story.**
 
-For this workshop, we'll use a different method.
+For this workshop, we'll use a different method to build a story map like this [one](https://arcg.is/0qWneL)
 
 To Do 
 {: .label .label-green }
@@ -32,9 +40,11 @@ This will take you to the **Overview** page.
 
 This will take you to a template with your web map already embedded.
 
-*3*{: .circle .circle-blue} Add a title and a subtitle.
+*3*{: .circle .circle-blue} Add a title and subtitle. You can copy and paste the text below to use.
+Title: Bring Your Pets
+Subtitle: Homeless Shelters in Vancouver That Accept Pets
 
-*4*{: .circle .circle-blue} You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title.
+*4*{: .circle .circle-blue} You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title. You might want to add a picture of your own pet. Unfortunately, this section of the story map doesn't support using a URL link for media.
 
 Scrolling down, you'll see your interactive web map. The popups will work as you configured them.
 
@@ -44,26 +54,41 @@ Let's add some context before the web map.
 
 *6*{: .circle .circle-blue} Choose to add a **Heading.**
 
-You might ask a question in the heading, such as **Did you know that some homeless shelters accept pets?**
+You might ask a question in the heading, such as **Did you know that pets are a barrier to leaving an abusive relationship?**
 
-Because the Story Map template provides such an easy way to add different kinds of content, spend the rest of the time experimenting with contextualizing the web map you created. 
+*7*{: .circle .circle-blue} Add text above the map by clicking on the plus sign and selecting **Text**.
+For each paragraph, click on the plus sign and copy and paste the text in the paragraphs below.
+*On June 16, 2020, the news site The Conversation published an article about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.*
 
-You can do a Google Image search to find images to add.
+*Geographic data on intimate partner violence (IPV) shelters is difficult to find because making their locations known to the public would also make their locations knowable to abusers.*
 
-You might want to talk about or link to the article in [The Conversation](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) which discusses how the prospect of leaving a pet behind makes it more difficult for people in abusive relationships to leave their abusers. 
+*Evidence in the United States suggests that there is lack of sufficient housing in IPV shelters and also that for some women, homelessness intersects with domestic violence.*
+
+*Assuming that homeless shelters are one place domestic abuse survivors sometimes access for safe harbor, we mapped which homeless shelters in Vancouver allow people to bring their pets.*
+
+*8*{: .circle .circle-blue} Click the plus sign again and select **Image**.
+Use this URL to add this infographic about the relationship between domestic violence and pets. https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domestic-violence_hj86o8-300x266-e1527625140420.png?ssl=1
+
+*9*{: .circle .circle-blue} Scroll beneath the web map, click the plus sign, and select **Embed**.
+Use this URL to embed an article from *Seattle DogSpot*. https://www.seattledogspot.com/these-washington-domestic-violence-shelters-allow-dogs/
+Hover over the top of the embedded article and select the second icon from the left to view this article as an interactive embed. You can also choose to make it small, medium, or large.
+
+If you have more time, you can experiment with adding more content to your story map. 
+
+For example, you can do a Google Image search to find images to add.
 
 You can change the style of your Story Map in a certain section by choosing to add a different template.
 ![storymap.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/storymap.jpg)
 
 You can also change some aspects of the design of your Story Map by clicking the **Design** button at the top right of the page.
 
-*7*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
+*10*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
 
-*8*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
+*11*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
 
 Esri recently started promoting this style of the Story Map we have been experimenting with here.
 
-Their older styles, called Classic Story Maps, offer functionality and in some cases, more map-centric Story Maps.
+Their older styles, called Classic Story Maps, offer different functionality and in some cases, more map-centric Story Maps.
 
 If you are interested in checking out other possibilities, you can tour the Classic Story Map [gallery](https://storymaps-classic.arcgis.com/en/gallery/#s=0&md=storymaps-apps:map-tour).
 
