@@ -27,7 +27,7 @@ There are a couple different ways to create a Story Map.
 
 To start from scratch, go to [Story Maps](https://storymaps.arcgis.com/) and click on **New Story.**
 
-For this workshop, we'll use a different method to build a story map like this [one](https://arcg.is/0qWneL)
+For this workshop, we'll use a different method.
 
 To Do 
 {: .label .label-green }
@@ -94,6 +94,8 @@ You can also change some aspects of the design of your Story Map by clicking the
 *10*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
 
 *11*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
+
+Your story map should end up looking something like this [one](https://arcg.is/0qWneL).
 
 Esri recently started promoting this style of the Story Map we have been experimenting with here.
 
