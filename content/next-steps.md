@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Next Steps
-nav_order: 5
+nav_order: 7
 ---
 
 ## NEXT STEPS
