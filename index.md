@@ -4,7 +4,7 @@ title: Outline
 nav_order: 1
 ---
 
-# Intro to ArcGIS Online and Story Maps
+# Visualizing Data in ArcGIS Online
 
 ## OUTLINE
 
