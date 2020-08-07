@@ -18,7 +18,7 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
   - Embed a map in a Story Map
   - Add photos and text to a Story Map
   
-### ** Workshop Outline**
+### **Workshop Outline**
 
 - Create two web maps using ArcGIS Online
 - Add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/) and explore this dataset
