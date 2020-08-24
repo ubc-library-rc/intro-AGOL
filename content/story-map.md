@@ -77,12 +77,15 @@ Use this URL to add this infographic about the relationship between domestic vio
 
 https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domestic-violence_hj86o8-300x266-e1527625140420.png?ssl=1
 
-*9*{: .circle .circle-blue} Scroll beneath the web map, click the plus sign, and select **Embed**.
-Use this URL to embed an article from *Seattle DogSpot*. 
+*9*{: .circle .circle-blue} Scroll beneath the web map, click the plus sign, and select **Embed**. Note that if you have a public ArcGIS Online account, this functionality may not be available.
 
-https://www.seattledogspot.com/these-washington-domestic-violence-shelters-allow-dogs/
+[Census Mapper](https://censusmapper.ca/) is a great resource for accessing official Census maps showcasing their data as well as maps created by users.
 
-Hover over the top of the embedded article and select the second icon from the left to view this article as an interactive embed. You can also choose to make it small, medium, or large.
+For our story map, we'll use Census Mapper's [Low Income Explorer[(https://censusmapper.ca/maps/844) to embed in our story map.
+
+Unfortunately, this doesn't embed the map itself, just a link to the map, but it adds some nice context to our story.
+
+Other relevant Census mapper maps include this [Dissemination Area Mapping of Household Income](https://censusmapper.ca/maps/1563#14/49.2783/-123.1140) and this [2016 Median Household Income](https://censusmapper.ca/maps/884), both of which use 2016 Canada Census data.
 
 If you have more time, you can experiment with adding more content to your story map. 
 
