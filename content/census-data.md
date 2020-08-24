@@ -26,7 +26,7 @@ This data layer uses [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth
 - A color is associated with an attribute value
 - It's a method for showing how a measurement varies across a geographic area
 
-You can read more about and see examples of chloropleth [maps] (https://arcg.is/15Xffe).
+You can read more about and see examples of chloropleth [maps](https://arcg.is/15Xffe).
 
 Although this Census data provides context, it also overwhelms the homeless shelter location data, which we want to be more prominent.
 
@@ -45,6 +45,6 @@ It also underscores how useful the Living Atlas is when data we want is availabl
 
 *5*{: .circle .circle-blue} Try searching for **census poverty Canada** or **census homeless Canada** to see if you can find anything related to Canada.
 
-Nothing comes up, and finding GIS data for metro Vancouver on the homeless populations, income, and poverty is very difficult to find. Instead of finding additional data for our map, we'll use maps that others have created with the relevant data to add to a [story map] (https://storymaps.arcgis.com/stories) about homeless shelters that allow pets and the relationship of these to the capacity of domestic violence victims to leave their abusers.
+Nothing comes up, and finding GIS data for metro Vancouver on the homeless populations, income, and poverty is very difficult to find. Instead of finding additional data for our map, we'll use maps that others have created with the relevant data to add to a [story map](https://storymaps.arcgis.com/stories) about homeless shelters that allow pets and the relationship of these to the capacity of domestic violence victims to leave their abusers.
 
 
