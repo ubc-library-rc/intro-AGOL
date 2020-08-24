@@ -17,6 +17,8 @@ The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of 
 
 ![add_LA_data](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/add_LA_data.png)
 
+*Note: If you only have a public ArcGIS account, you will have access to fewer layers in the Living Atlas.* 
+
 *2*{: .circle .circle-blue} Scroll down to read about it. This layer is created and maintained by the Center for Systems Science and Engineering (CSSE) at the Johns Hopkins University, which is also maintaining the well known [Dashboard](https://coronavirus.jhu.edu/map.html) tracking COVID-19 cases and deaths across the world. This layer contains the same underlying data feeding that dashboard.
 
 *3*{: .circle .circle-blue} Click **Add to Map**, then click the back arrow above the **Add Data** search bar to return to the **Contents** pane.
