@@ -81,7 +81,7 @@ https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domesti
 
 [Census Mapper](https://censusmapper.ca/) is a great resource for accessing official Census maps showcasing their data as well as maps created by users.
 
-For our story map, we'll use Census Mapper's [Low Income Explorer[(https://censusmapper.ca/maps/844) to embed in our story map.
+For our story map, we'll use Census Mapper's [Low Income Explorer](https://censusmapper.ca/maps/844) to embed in our story map.
 
 Unfortunately, this doesn't embed the map itself, just a link to the map, but it adds some nice context to our story.
 
