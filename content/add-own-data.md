@@ -18,7 +18,7 @@ There are multiple data formats that can be added to an AGOL web map.
  
 We want to zoom in on the map and explore the pandemic from a more localized perspective. Let's try and better understand COVID-19 data in Canada. 
 
-In additon to Statistics Canada, there are some other places we can find data about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of COVID-19 data resources for Canada.
+In additon to Statistics Canada, there are some other places we can find data about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
 
 ![Esri COVID-19 Open Data](https://resources-covid19canada.hub.arcgis.com/pages/open-data)
 
@@ -32,8 +32,7 @@ In additon to Statistics Canada, there are some other places we can find data ab
 
 ![Canada COVID-19 interactive growth rate explorer](https://mountainmath.ca/shiny/canada_covid-19/?_inputs_&level=%22province%22&metric=%22Confirmed%22&province=%2201%22&start_cutoff=100)
 
-
-
+Because we're working in ArcGIS Online, let's take a look at Esri's data hub for COVID-19 data in Canada. 
 
 On June 16, 2020, the news site [*The Conversation*](https://theconversation.com/ca) published an [article](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.
 
