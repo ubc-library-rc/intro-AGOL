@@ -20,17 +20,17 @@ We want to zoom in on the map and explore the pandemic from a more localized per
 
 In additon to Statistics Canada, there are some other places we can find data about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
 
-![Esri COVID-19 Open Data](https://resources-covid19canada.hub.arcgis.com/pages/open-data)
+[Esri COVID-19 Open Data](https://resources-covid19canada.hub.arcgis.com/pages/open-data)
 
-![University of Toronto Libraries COVID-19 Data Resources](https://mdl.library.utoronto.ca/covid-19/resources)
+[University of Toronto Libraries COVID-19 Data Resources](https://mdl.library.utoronto.ca/covid-19/resources)
 
-![Flatten](https://www.flatten.ca/)
+[Flatten](https://www.flatten.ca/)
 
-![COVID-19 in Canada](https://art-bd.shinyapps.io/covid19canada/)
+[COVID-19 in Canada](https://art-bd.shinyapps.io/covid19canada/)
 
-![COVID-19 Canada Open Data Working Group](https://opencovid.ca/)
+[COVID-19 Canada Open Data Working Group](https://opencovid.ca/)
 
-![Canada COVID-19 interactive growth rate explorer](https://mountainmath.ca/shiny/canada_covid-19/?_inputs_&level=%22province%22&metric=%22Confirmed%22&province=%2201%22&start_cutoff=100)
+[Canada COVID-19 interactive growth rate explorer](https://mountainmath.ca/shiny/canada_covid-19/?_inputs_&level=%22province%22&metric=%22Confirmed%22&province=%2201%22&start_cutoff=100)
 
 Because we're working in ArcGIS Online, let's take a look at Esri's data hub for COVID-19 data in Canada. 
 
