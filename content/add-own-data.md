@@ -34,6 +34,8 @@ In additon to Statistics Canada, there are some other places we can find data ab
 
 Because we're working in ArcGIS Online, let's take a look at Esri's data hub for COVID-19 data in Canada. 
 
+ADDED TIMESERIES CASE DATA - NEXT STEPS SYMBOLIZE AND ADD INSTRUCTIONS FOR THIS; CITE SOURCE
+
 On June 16, 2020, the news site [*The Conversation*](https://theconversation.com/ca) published an [article](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.
 
 Geographic data on intimate partner violence (IPV) shelters is difficult to find because making their locations known to the public would also make their locations knowable to abusers. 
