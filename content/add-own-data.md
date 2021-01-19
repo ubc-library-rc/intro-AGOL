@@ -18,7 +18,7 @@ There are multiple data formats that can be added to an AGOL web map.
  
 We want to zoom in on the map and explore the pandemic from a more localized perspective. Let's try and better understand COVID-19 data in Canada. 
 
-There are 
+In additon to Statistics Canada, there are some other places we can find data about COVID-19 in Canada.
 
 
 
