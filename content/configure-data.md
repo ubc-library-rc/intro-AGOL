@@ -2,7 +2,7 @@
 layout: default
 title: Configure Your Own Data
 nav_order: 1
-parent: Add Your Own Data
+parent: Analyzing Data
 ---
 
 ## CONFIGURE YOUR OWN DATA
