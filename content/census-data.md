@@ -2,7 +2,7 @@
 layout: default
 title: Add Census Data
 nav_order: 2
-parent: Add Your Own Data
+parent: Analyzing Data
 ---
 
 ## ADD CENSUS DATA
