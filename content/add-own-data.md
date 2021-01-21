@@ -54,16 +54,18 @@ Let's continue to explore deaths due to COVID-19 and relate them to another vari
 
 *5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
 
+Once you select two attributes to show, you'll see that different drawing styles become available. 
 
-On June 16, 2020, the news site [*The Conversation*](https://theconversation.com/ca) published an [article](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.
+*6*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click once this to see what happens to the symbology in the map.
 
-Geographic data on intimate partner violence (IPV) shelters is difficult to find because making their locations known to the public would also make their locations knowable to abusers. 
+At first glance, the default classification scheme shows that there is a more significant relationship between these two variables in British Columbia, Alberta, Quebec and Ontario.
 
-[Evidence](https://www.acf.hhs.gov/fysb/resource/dv-homelessness-stats-2016) in the United States suggests that there is lack of sufficient housing in IPV shelters and also that for some women, homelessness intersects with domestic violence.
+![quantile](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/quantile.jpg)
 
-Assuming that homeless shelters are one place domestic abuse survivors sometimes access for safe harbor, let's see if we can find data related to homeless shelters in Vancouver in order to find out which homeless shelters accomodate pets.
+*7*{: .circle .circle-blue} Select the **Relationship** option by clicking on it again and notice that the classification method is listed as Quantile.
 
-The City of Vancouver maintains the [Open Data Portal](https://opendata.vancouver.ca/pages/home/) where users can download data, view data in a map, or build a chart, among other functionalities.
+ADD INFO ON CLASSIFICATION METHODS AND CHOOSE EQUAL INTERVAL?
+
 
 You should have downloaded this data in preparation for our workshop, but in case you didn't, you can [download](https://opendata.vancouver.ca/explore/dataset/homeless-shelter-locations/download/?format=geojson&timezone=America/Los_Angeles&lang=en) it now. 
 
