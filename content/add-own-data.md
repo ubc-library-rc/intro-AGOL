@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Add Your Own Data
+title: Analyzing Data
 nav_order: 5
 has_children: true
 ---
 
-## ADD YOUR OWN DATA
+## ANALYZING DATA
 
 In ArcGIS Online, you can add data from the Living Atlas, curated by Esri, from web services produced by other agencies, or you can add your own data.
 
@@ -44,7 +44,15 @@ First let's check and see whether we can add this dataset from ArcGIS Online its
 
 *2*{: .circle .circle-blue} Ensure you are searching ArcGIS Online by clicking the dropdown arrow and selecting **ArcGIS Online** below **Living Atlas** among the list of options. 
 
-*3*{: .circle .circle-blue} 
+*3*{: .circle .circle-blue} Search for provincial summaries Canada and click the plus symbol to add **Provincial Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
+
+*4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click the dropdown arrow under **Choose an attribute to show**. If necessary, click on the **Change Style** icon we previously used to open up the symbology properties and click the dropdown arrow.
+
+We can see there are many more attributes in this dataset than in the John Hopkins COVID-19 data we previously added from the Living Atlas. 
+
+Let's continue to explore deaths due to COVID-19 and relate them to another variable available in this dataset.
+
+*5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
 
 
 On June 16, 2020, the news site [*The Conversation*](https://theconversation.com/ca) published an [article](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.
