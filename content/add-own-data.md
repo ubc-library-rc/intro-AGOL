@@ -40,7 +40,11 @@ Just under the map showing provincial summaries, there is a download button with
 
 First let's check and see whether we can add this dataset from ArcGIS Online itself to our map.
 
+*1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Search for Layers**.  
 
+*2*{: .circle .circle-blue} Ensure you are searching ArcGIS Online by clicking the dropdown arrow and selecting **ArcGIS Online** below **Living Atlas** among the list of options. 
+
+*3*{: .circle .circle-blue} 
 
 
 On June 16, 2020, the news site [*The Conversation*](https://theconversation.com/ca) published an [article](https://theconversation.com/people-in-abusive-relationships-face-many-barriers-to-leaving-pets-should-not-be-one-139540?utm_medium=email&utm_campaign=Latest%20from%20The%20Conversation%20for%20June%2017%202020&utm_content=Latest%20from%20The%20Conversation%20for%20June%2017%202020+CID_e7708191b09d4919198c361914f475ff&utm_source=campaign_monitor_ca&utm_term=pets%20should%20not%20be%20one) about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.
