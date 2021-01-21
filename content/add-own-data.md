@@ -48,11 +48,11 @@ First let's check and see whether we can add this dataset from ArcGIS Online its
 
 *3*{: .circle .circle-blue} Search for **health region summaries canada** and click the plus symbol to add **Health Region Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
 
-*4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click the dropdown arrow under **Choose an attribute to show**. If necessary, click on the **Change Style** icon we previously used to open up the symbology properties and click the dropdown arrow.
+*4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
 
-We can see there are many more attributes in this dataset than in the John Hopkins COVID-19 data we previously added from the Living Atlas. 
+In order to continue exploring deaths due to COVID-19, we want to relate the number of deaths to the population 60 years and older. This attribute currently does not exist in the dataset, so first we need to add a custom expression to sum the values from attributes representing population in ages groups ranging from 60 to 65 to 85 and older.
 
-Let's continue to explore deaths due to COVID-19 and relate them to another variable available in this dataset.
+*5*{: .circle .circle-blue} Click on the three dots below the **Health Region Summaries** layer in the **Contents** pane.
 
 *5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
 
