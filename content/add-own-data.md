@@ -32,19 +32,21 @@ In additon to the data curated by Johns Hopkins that we've been using so far, th
 
 [Canada COVID-19 interactive growth rate explorer](https://mountainmath.ca/shiny/canada_covid-19/?_inputs_&level=%22province%22&metric=%22Confirmed%22&province=%2201%22&start_cutoff=100)
 
-Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/provincial-summaries) that provides provincial summaries from Esri's data hub for COVID-19 data in Canada.
+Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/health-region-summaries) that provides health region summaries from Esri's data hub for COVID-19 data in Canada.
 
-The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Below this content, Esri has also created web maps and web apps  using certain data. We'll keep these in mind for the storymap we will be creating in a later section of this workshop.
+The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html).  
 
-Just under the map showing provincial summaries, there is a download button with a dropdown arrow. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile.
+Below the attributes, Esri has also created web maps and web apps using certain data. We'll keep these in mind for the storymap we will be creating in a later section of this workshop.
 
-First let's check and see whether we can add this dataset from ArcGIS Online itself to our map.
+Just under the map showing health region summaries at the top, there is a download button with a dropdown arrow. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile.
+
+First let's check and see whether we can add this dataset from ArcGIS Online itself to our map, which would provide a dataset with a popup that has already been configured appropriately.
 
 *1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Search for Layers**.  
 
 *2*{: .circle .circle-blue} Ensure you are searching ArcGIS Online by clicking the dropdown arrow and selecting **ArcGIS Online** below **Living Atlas** among the list of options. 
 
-*3*{: .circle .circle-blue} Search for provincial summaries Canada and click the plus symbol to add **Provincial Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
+*3*{: .circle .circle-blue} Search for **health region summaries canada** and click the plus symbol to add **Health Region Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
 
 *4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click the dropdown arrow under **Choose an attribute to show**. If necessary, click on the **Change Style** icon we previously used to open up the symbology properties and click the dropdown arrow.
 
