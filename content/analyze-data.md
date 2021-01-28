@@ -69,7 +69,7 @@ In order to continue exploring deaths due to COVID-19, we want to relate the num
 
 *11*{: .circle .circle-blue} Now let's change the symbology. Click on the third icon from the left to open the **Change Style** window.
 
-*12*{: .circle .circle-blue} From the dropdown arrow under **Choose an attribute to show**, scroll down to select **Deaths** again and then click **Add attribute** and select the custom field you created **2019 Total Pop 60 to 85 or Older**. It may be shortened in this view to **2019 Total Population**.
+*12*{: .circle .circle-blue} From the dropdown arrow under **Choose an attribute to show**, scroll down to select **Deaths** again and then click **Add attribute** and select the custom field you created **2019 Total Pop 60 to 85 or Older**. THIS MAY NOT SHOW UP AND RELATIONSHIP OPTION DOESN'T SHOW UP WITH THIS. NEED TO TROUBLESHOOT.
 
 Because we know that older people are at greater risk of dying with this coronavirus, we can expect there to be a relationship between these two variables.
 
