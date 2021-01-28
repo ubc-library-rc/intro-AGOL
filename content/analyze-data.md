@@ -61,6 +61,13 @@ In order to continue exploring deaths due to COVID-19, we want to relate the num
 ```json
     Sum($feature.Pop60to64_2019,$feature.Pop65to69_2019, $feature.Pop70to74_2019, $feature.Pop75to79_2019, $feature.Pop80to84_2019, $feature.Pop85Older)
 ```
+*8*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **2019 Total Pop 60 to 85 or Older**. Click **OK**.
+
+*9*{: .circle .circle-blue} Now click **Configure Attributes** and scroll all the way down until you see the custom expression you created. Click on this and then click the up arrow on the right to move the expression between **2019 Total Pop 85 or Older** and **2019 Total Pop Average Age** and then click **OK** and **OK** again.
+
+*10*{: .circle .circle-blue} Click on the map to see the pop-up and confirm the new field appears as you want it to. Save the map.
+
+*11*{: .circle .circle-blue}
 
 *5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
 
