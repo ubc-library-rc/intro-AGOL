@@ -1,11 +1,20 @@
 ---
 layout: default
-title: Configure Your Own Data
+title: Data Normalization and Classification
 nav_order: 1
 parent: Analyzing Data
 ---
 
-## CONFIGURE YOUR OWN DATA
+## DATA NORMALIZATION AND CLASSIFICATION
+
+At first glance, the default classification scheme shows that there is a more significant relationship between these two variables in British Columbia, Alberta, Quebec and Ontario.
+
+![quantile](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/quantile.jpg)
+
+*7*{: .circle .circle-blue} Select the **Relationship** option by clicking on it again and notice that the classification method is listed as Quantile.
+
+ADD INFO ON CLASSIFICATION METHODS AND CHOOSE EQUAL INTERVAL?
+
 
 To Do
 {: .label .label-green }
