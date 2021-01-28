@@ -54,6 +54,14 @@ In order to continue exploring deaths due to COVID-19, we want to relate the num
 
 *5*{: .circle .circle-blue} Click on the three dots below the **Health Region Summaries** layer in the **Contents** pane.
 
+*6*{: .circle .circle-blue} Click on **Configure Pop-up** and then under **Attribute Expressions**, click on **Add**.
+
+*7*{: .circle .circle-blue} Copy and paste the following expression to add another field which sums all of the values for populations ages 60 to 85 and older.
+
+```json
+    Sum($feature.Pop60to64_2019,$feature.Pop65to69_2019, $feature.Pop70to74_2019, $feature.Pop75to79_2019, $feature.Pop80to84_2019, $feature.Pop85Older)
+```
+
 *5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
 
 Once you select two attributes to show, you'll see that different drawing styles become available. 
