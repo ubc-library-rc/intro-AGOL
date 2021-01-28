@@ -67,11 +67,13 @@ In order to continue exploring deaths due to COVID-19, we want to relate the num
 
 *10*{: .circle .circle-blue} Click on the map to see the pop-up and confirm the new field appears as you want it to. Save the map.
 
-*11*{: .circle .circle-blue}
+*11*{: .circle .circle-blue} Now let's change the symbology. Click on the third icon from the left to open the **Change Style** window.
 
-*5*{: .circle .circle-blue} From the dropdown arrow, scroll down to select **Deaths** again and then click **Add attribute** and select **2019 Total Pop 85 or Older** because we know that with this coronavirus, older people are at greater risk of dying so we can expect there to be a relationship between these two variables.
+*12*{: .circle .circle-blue} From the dropdown arrow under **Choose an attribute to show**, scroll down to select **Deaths** again and then click **Add attribute** and select the custom field you created **2019 Total Pop 60 to 85 or Older**. It may be shortened in this view to **2019 Total Population**.
 
-Once you select two attributes to show, you'll see that different drawing styles become available. 
+Because we know that older people are at greater risk of dying with this coronavirus, we can expect there to be a relationship between these two variables.
+
+We also see that once we select two attributes instead of one to display, different drawing styles become available. The default is the proportional symbology we previously used to show deaths from COVID-19 around the world.
 
 *6*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click once this to see what happens to the symbology in the map.
 
