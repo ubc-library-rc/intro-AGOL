@@ -20,7 +20,9 @@ ADD INFO ON CLASSIFICATION METHODS
 ### ADDITIONAL RESOURCES
 
 [Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
+
 [ArcGIS Online Relationship Style](https://enterprise.arcgis.com/en/portal/latest/use/style-numbers.htm#ESRI_SECTION1_C7FAB061D60344CAB6AC9A190DAED1D2)
+
 [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
 
 
