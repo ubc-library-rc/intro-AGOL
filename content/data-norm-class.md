@@ -25,6 +25,10 @@ ADD INFO ON CLASSIFICATION METHODS
 
 [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
 
+[Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
+
+[Evaluation of Methods for Classifying Epidemiological Data on Chloropleth Maps in Series](http://php.scripts.psu.edu/users/c/a/cab38/Pub_scans/Brewer-Pickle_2002_Epi-Choropleth-Classing_Annals.pdf)
+
 
 
 
