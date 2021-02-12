@@ -7,18 +7,11 @@ has_children: true
 
 ## ANALYZING DATA
 
-In ArcGIS Online, you can add data from the Living Atlas, curated by Esri, from web services produced by other agencies, or you can add your own data.
-
-There are multiple data formats that can be added to an AGOL web map. 
-
- - [shapefile](https://desktop.arcgis.com/en/arcmap/latest/manage-data/shapefiles/what-is-a-shapefile.htm) - to be added to the map, the different components of the shapefile must be compressed into a ZIP archive
- - CSV or TXT files with optional address, place or coordinate locations (comma, semi-colon or tab delimited)
- - GPX (GPS Exchange Format)
- - [GeoJSON](https://geojson.org/) (open standard format for simple geographical features)
+In ArcGIS Online, you can add data from the Living Atlas, curated by Esri, from web services produced by other agencies, or you can add your own data in [multiple data formats](https://storymaps.arcgis.com/stories/c9d52ddee8f040d0acb4d219598f7fb6).
  
-We want to zoom in on the map and explore the pandemic from a more localized perspective. Let's try and better understand COVID-19 data in Canada. 
+In this section, we want to continue exploring COVID-19 data, and deaths due to COVID-19, in Canada. We saw that the John Hopkins data only has provincial-level data for Canada, so let's see if we can find data with more detail. 
 
-In additon to the data curated by Johns Hopkins that we've been using so far, there are some other data available about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
+It turns out there are some other data available about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
 
 [Esri COVID-19 Open Data](https://resources-covid19canada.hub.arcgis.com/pages/open-data)
 
@@ -34,9 +27,9 @@ In additon to the data curated by Johns Hopkins that we've been using so far, th
 
 Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/health-region-summaries) that provides health region summaries from Esri's data hub for COVID-19 data in Canada.
 
-The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html). The risk of dying from COVID-19 seems to increase with age. [StatCan found that 52% of excess deaths in Canada from March to June 2020](https://www.ctvnews.ca/health/coronavirus/canadians-age-85-and-older-account-for-over-half-of-excess-deaths-amid-covid-19-statcan-1.5205790), assumed to be due to COVID-19, were among those 85 and older.
+The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. 
 
-Below the attributes under the **Overview** tab, Esri has also created web maps and web apps using certain data. We'll keep these in mind for the storymap we will be creating in a later section of this workshop.
+This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html). [StatCan found that 52% of excess deaths in Canada from March to June 2020](https://www.ctvnews.ca/health/coronavirus/canadians-age-85-and-older-account-for-over-half-of-excess-deaths-amid-covid-19-statcan-1.5205790), assumed to be due to COVID-19, were among those 85 and older, which is a specific age category in this dataset.
 
 Just under the map showing health region summaries at the top, there is a download button with a dropdown arrow. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile, but there are several reasons to use the data in ArcGIS Online without ever downloading it, which may require using a desktop GIS application to manipulate the data before adding it back to ArcGIS Online.
 
@@ -54,23 +47,6 @@ Let's check and see whether we can add this dataset from ArcGIS Online itself to
 *3*{: .circle .circle-blue} Search for **health region summaries canada** and click the plus symbol to add **Health Region Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
 
 *4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
-
-In order to continue exploring deaths due to COVID-19 in more detail for Canada, let's seelate the number of deaths to the population 60 years and older. This attribute currently does not exist in the dataset, so first we need to add a custom expression to sum the values from attributes representing population in ages groups ranging from 60 to 65 to 85 and older.
-
-*5*{: .circle .circle-blue} Click on the three dots below the **Health Region Summaries** layer in the **Contents** pane.
-
-*6*{: .circle .circle-blue} Click on **Configure Pop-up** and then under **Attribute Expressions**, click on **Add**.
-
-*7*{: .circle .circle-blue} Copy and paste the following expression to add another field which sums all of the values for populations ages 60 to 85 and older.
-
-```json
-    Sum($feature.Pop60to64_2019,$feature.Pop65to69_2019, $feature.Pop70to74_2019, $feature.Pop75to79_2019, $feature.Pop80to84_2019, $feature.Pop85Older)
-```
-*8*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **2019 Total Pop 60 to 85 or Older**. Click **OK**.
-
-*9*{: .circle .circle-blue} Now click **Configure Attributes** and scroll all the way down until you see the custom expression you created. Click on this and then click the up arrow on the right to move the expression between **2019 Total Pop 85 or Older** and **2019 Total Pop Average Age** and then click **OK** and **OK** again.
-
-*10*{: .circle .circle-blue} Click on the map to see the pop-up and confirm the new field appears as you want it to. Save the map.
 
 *11*{: .circle .circle-blue} Now let's change the symbology. Click on the third icon from the left to open the **Change Style** window.
 
