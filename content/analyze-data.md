@@ -48,16 +48,18 @@ Let's check and see whether we can add this dataset from ArcGIS Online itself to
 
 *4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
 
-*11*{: .circle .circle-blue} Now let's change the symbology. Click on the third icon from the left to open the **Change Style** window.
+Let's try and understand the severity of COVID-19 in Canada using this data. [Two measures used to assess severity of an infectious disease](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) are the infection fatality ratio (IFR) and the case fatality ratio (CFR). We only have data to calculate the CFR.
 
-*12*{: .circle .circle-blue} From the dropdown arrow under **Choose an attribute to show**, scroll down to select **Deaths** again and then click **Add attribute** and select the custom field you created **2019 Total Pop 60 to 85 or Older**. THIS MAY NOT SHOW UP AND RELATIONSHIP OPTION DOESN'T SHOW UP WITH THIS. NEED TO TROUBLESHOOT.
+*5*{: .circle .circle-blue} First create a copy of this layer like we did in a previous step so we can create different layers with the data (hint: ellipsis > Copy).
 
-Because we know that older people are at greater risk of dying with this coronavirus, we can expect there to be a relationship between these two variables.
+*6*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
 
-We also see that once we select two attributes instead of one to display, different drawing styles become available. The default is the proportional symbology we previously used to show deaths from COVID-19 around the world.
+We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below.
 
-*13*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click once this to see what happens to the symbology in the map.
+![CFR.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR_1.jpg)
 
-What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use. 
+*7*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
 
-Now that we know we want to use a chloropleth map to illustrate this relationship, we first need to normalize the data, which we'll do in the next section.
+*8*{: .circle .circle-blue} Select **Custom expression** at the very bottom.
+
+
