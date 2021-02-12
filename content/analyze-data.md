@@ -34,13 +34,18 @@ In additon to the data curated by Johns Hopkins that we've been using so far, th
 
 Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/health-region-summaries) that provides health region summaries from Esri's data hub for COVID-19 data in Canada.
 
-The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html).  
+The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html). The risk of dying from COVID-19 seems to increase with age. [StatCan found that 52% of excess deaths in Canada from March to June 2020](https://www.ctvnews.ca/health/coronavirus/canadians-age-85-and-older-account-for-over-half-of-excess-deaths-amid-covid-19-statcan-1.5205790), assumed to be due to COVID-19, were among those 85 and older.
 
-Below the attributes, Esri has also created web maps and web apps using certain data. We'll keep these in mind for the storymap we will be creating in a later section of this workshop.
+Below the attributes under the **Overview** tab, Esri has also created web maps and web apps using certain data. We'll keep these in mind for the storymap we will be creating in a later section of this workshop.
 
-Just under the map showing health region summaries at the top, there is a download button with a dropdown arrow. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile.
+Just under the map showing health region summaries at the top, there is a download button with a dropdown arrow. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile, but there are several reasons to use the data in ArcGIS Online without ever downloading it, which may require using a desktop GIS application to manipulate the data before adding it back to ArcGIS Online.
 
-First let's check and see whether we can add this dataset from ArcGIS Online itself to our map, which would provide a dataset with a popup that has already been configured appropriately.
+Good reasons to use data available online through Esri include:
+- Popups that have already been configured appropriately
+- Ability to create new fields and manipulate data using [Arcade](https://www.esri.com/arcgis-blog/products/apps/uncategorized/introducing-arcade/) expressions
+- Curated data that would be difficult to find otherwise, like the the Health Region Summaries
+
+Let's check and see whether we can add this dataset from ArcGIS Online itself to our map. 
 
 *1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Search for Layers**.  
 
@@ -50,7 +55,7 @@ First let's check and see whether we can add this dataset from ArcGIS Online its
 
 *4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
 
-In order to continue exploring deaths due to COVID-19, we want to relate the number of deaths to the population 60 years and older. This attribute currently does not exist in the dataset, so first we need to add a custom expression to sum the values from attributes representing population in ages groups ranging from 60 to 65 to 85 and older.
+In order to continue exploring deaths due to COVID-19 in more detail for Canada, let's seelate the number of deaths to the population 60 years and older. This attribute currently does not exist in the dataset, so first we need to add a custom expression to sum the values from attributes representing population in ages groups ranging from 60 to 65 to 85 and older.
 
 *5*{: .circle .circle-blue} Click on the three dots below the **Health Region Summaries** layer in the **Contents** pane.
 
