@@ -62,7 +62,7 @@ We will use a calculation for CFR [restricting our analysis to resolved cases](h
 
 *8*{: .circle .circle-blue} Select **Custom expression** at the very bottom. This will open a window where you can use the Arcade language to build expressions.
 
-*9*{: .circle .circle-blue} Copy and paste the following expression.
+*9*{: .circle .circle-blue} Copy and paste the following expression in the window.
 
 ```json
     ($feature.Deaths / ($feature.Deaths + $feature.Recovered) * 100)
@@ -80,8 +80,12 @@ The default symbology is telling us that these regions represent areas with a gr
 
 You'll notice that the range for the fourth class is huge, from under 10% to 100%. 
 
-*12*{: .circle .circle-blue} Select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features.
+*13*{: .circle .circle-blue} Select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features.
 
-In this case, the fourth class represents a range from under 5% to 100%. In our case, it makes more sense to leave the data unclassified.
+In this case, the fourth class represents a range from under 5% to 100%. In our case, it makes more sense to leave the data unclassified. What's clear is that the case fatality ratio is much higher in certain health regions in eastern Canada than throughout the rest of Canada.
 
-*13*{: .circle .circle-blue} 
+It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
+
+*14*{: .circle .circle-blue} Uncheck the **Classify** button and click **OK** and then **Done**.
+
+In the next section, we'll explore the relationship between two variables in the dataset, deaths and age.
