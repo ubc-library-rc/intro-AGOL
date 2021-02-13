@@ -54,12 +54,34 @@ Let's try and understand the severity of COVID-19 in Canada using this data. [Tw
 
 *6*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
 
-We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below.
+We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below because this is meant to better represent an ongoing epidemic.
 
 ![CFR.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR_1.jpg)
 
 *7*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
 
-*8*{: .circle .circle-blue} Select **Custom expression** at the very bottom.
+*8*{: .circle .circle-blue} Select **Custom expression** at the very bottom. This will open a window where you can use the Arcade language to build expressions.
 
+*9*{: .circle .circle-blue} Copy and paste the following expression.
 
+```json
+    ($feature.Deaths / ($feature.Deaths + $feature.Recovered) * 100)
+```
+
+*10*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **OK**.
+
+The symbology defaults to proportional symbols, but these overwhelm certain areas of the map.
+
+*11*{: .circle .circle-blue} Click on **Counts and Amounts**, and you'll notice a dark cluster of health regions in eastern Canada. 
+
+The default symbology is telling us that these regions represent areas with a greater than 50% case fatality ratio.
+
+*12*{: .circle .circle-blue} Check the **Classify Data** box, which defaults to using a [Natural Breaks](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification) classification method which attemps to mathematically find "natural" classes that group together in a dataset. It also defaults to four classes.
+
+You'll notice that the range for the fourth class is huge, from under 10% to 100%. 
+
+*12*{: .circle .circle-blue} Select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features.
+
+In this case, the fourth class represents a range from under 5% to 100%. In our case, it makes more sense to leave the data unclassified.
+
+*13*{: .circle .circle-blue} 
