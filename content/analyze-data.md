@@ -86,6 +86,10 @@ In this case, the fourth class represents a range from under 5% to 100%. In our 
 
 *14*{: .circle .circle-blue} Uncheck the **Classify** button and click **OK** and then **Done**.
 
+Your map should look something like this:
+
+![CFR.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR.png)
+
 It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
 
 In the next section, we'll add some population data to help contextualize the CFR in these locations. 
