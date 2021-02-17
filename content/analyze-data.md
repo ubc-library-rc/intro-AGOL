@@ -86,7 +86,7 @@ In this case, the fourth class represents a range from under 5% to 100%. In our 
 
 *14*{: .circle .circle-blue} Uncheck the **Classify** button and click **OK** and then **Done**.
 
-Your map should look something like this:
+Your map should look something like the image below. Keep in mind that we never reconfigured our pop-up to include the Case Fatality Ratio, but we'll do that at a later point in the workshop.
 
 ![CFR.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR.png)
 
