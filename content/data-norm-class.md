@@ -9,6 +9,14 @@ parent: Analyzing Data
 
 We plan on creating a chloropleth symbology to illustrate the relationship between two variables, deaths and the population 60 to 85 years and older. Data normalization refers to using rates or percentages instead of absolute values, which is important because each health region in our map is a different size with different number of people living in each region. Normalization allows us to better compare rates of death across areas normalizing for population. 
 
+This data layer uses [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area.
+
+- The variable is usually quantitative
+- A color is associated with an attribute value
+- It's a method for showing how a measurement varies across a geographic area
+
+You can read more about and see examples of chloropleth [maps](https://arcg.is/15Xffe).
+
 At first glance, the default classification scheme shows that there is a more significant relationship between these two variables in British Columbia, Alberta, Quebec and Ontario.
 
 ![quantile](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/quantile.jpg)
