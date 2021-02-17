@@ -84,8 +84,8 @@ You'll notice that the range for the fourth class is huge, from under 10% to 100
 
 In this case, the fourth class represents a range from under 5% to 100%. In our case, it makes more sense to leave the data unclassified. What's clear is that the case fatality ratio is much higher in certain health regions in eastern Canada than throughout the rest of Canada.
 
-It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
-
 *14*{: .circle .circle-blue} Uncheck the **Classify** button and click **OK** and then **Done**.
 
-In the next section, we'll explore the relationship between two variables in the dataset, deaths and age.
+It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
+
+In the next section, we'll add some population data to help contextualize the CFR in these locations. 
