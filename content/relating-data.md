@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Data Normalization and Classification
+title: Relating Data
 nav_order: 2
 parent: Analyzing Data
 ---
 
-## DATA NORMALIZATION AND CLASSIFICATION
+## RELATING DATA
+
+One of the strengths of the **Health Region Summaries** data is the age-related information that comes with it. While it does not tell us COVID-19 deaths by age, we can create a map that shows the relationship between two variables, deaths and the population 85 years and older.
 
 We plan on creating a chloropleth symbology to illustrate the relationship between two variables, deaths and the population 60 to 85 years and older. Data normalization refers to using rates or percentages instead of absolute values, which is important because each health region in our map is a different size with different number of people living in each region. Normalization allows us to better compare rates of death across areas normalizing for population. 
 
