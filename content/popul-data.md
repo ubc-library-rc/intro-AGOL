@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Add Census Data
-nav_order: 2
+title: Add POPULATION Data
+nav_order: 1
 parent: Analyzing Data
 ---
 
-## ADD CENSUS DATA
+## ADD POPULATION DATA
 
 Just as we did in the first exercise, we can search for layers in the Living Atlas that make our map more meaningful.
 Census data provides population and dwelling data by dissemination area that is provided by [Statistics Canada](https://open.canada.ca/data/en/dataset/3cf36302-1060-444e-988a-d97b6db5ad24) but symbolized and made available through the Living Atlas, making it more accessible.
