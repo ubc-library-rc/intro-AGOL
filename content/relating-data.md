@@ -9,6 +9,26 @@ parent: Analyzing Data
 
 One of the strengths of the **Health Region Summaries** data is the age-related information that comes with it. While it does not tell us COVID-19 deaths by age, we can create a map that shows the relationship between two variables, deaths and the population 85 years and older.
 
+You may remember that we created a copy of this dataset in our web map. If you haven't done so already, we'll start off by renaming it. 
+
+To Do
+{: .label .label-green }
+Uncheck all layers except the copy of the **Health Region Summaries** data you made and rename it to **Deaths Per Pop & Pop 85 +**. Save your map.
+
+Let's play around with the symbology to see how we can best show the relationship between deaths and the most vulnerable age group to COVID-19, those 85 years and older.
+
+*1*{: .circle .circle-blue}  Open the symbology by clickng on the third icon from the left to open the **Change Style** window.
+
+*2*{: .circle .circle-blue} From the dropdown arrow under **Choose an attribute to show**, scroll down to select **Deaths** and then click **Add attribute** and select the custom field you created **2019 Total Pop 85 or Older**.
+
+We also see that once we select two attributes instead of one to display, different drawing styles become available. The default is the proportional symbology we previously used to show deaths from COVID-19 around the world.
+
+*13*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click once this to see what happens to the symbology in the map.
+
+What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use. 
+
+*1*{: .circle .circle-blue} 
+
 We plan on creating a chloropleth symbology to illustrate the relationship between two variables, deaths and the population 60 to 85 years and older. Data normalization refers to using rates or percentages instead of absolute values, which is important because each health region in our map is a different size with different number of people living in each region. Normalization allows us to better compare rates of death across areas normalizing for population. 
 
 This data layer uses [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area.
