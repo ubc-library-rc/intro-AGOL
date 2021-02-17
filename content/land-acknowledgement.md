@@ -4,7 +4,7 @@ title: Land Acknowledgement
 nav_order: 2
 ---
 
-UBC is located on the traditional, ancestral, and unceded territory of the Musqueam people.
+UBC is located on the traditional, ancestral, and unceded territory of the [Musqueam](https://www.musqueam.bc.ca/) people.
 
 ![ubc.jpg](https://raw.githubusercontent.com/fiddleHeads/missing-mapathon/main/UBC.jpg)
 
