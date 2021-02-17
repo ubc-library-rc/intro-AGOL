@@ -54,7 +54,7 @@ Let's try and understand the severity of COVID-19 in Canada using this data. [Tw
 
 *6*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
 
-We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below because this is meant to better represent an ongoing epidemic.
+We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below because this is meant to better represent an ongoing epidemic. After the pandemic is over, it will be more appropriate to use a formula which takes the number of deaths divided by the number of cases and multiplies it by 100.
 
 ![CFR.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR_1.jpg)
 
