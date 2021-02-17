@@ -1,24 +1,27 @@
 ---
 layout: default
-title: Add POPULATION Data
+title: Add Population Data
 nav_order: 1
 parent: Analyzing Data
 ---
 
 ## ADD POPULATION DATA
 
-Just as we did in the first exercise, we can search for layers in the Living Atlas that make our map more meaningful.
-Census data provides population and dwelling data by dissemination area that is provided by [Statistics Canada](https://open.canada.ca/data/en/dataset/3cf36302-1060-444e-988a-d97b6db5ad24) but symbolized and made available through the Living Atlas, making it more accessible.
+Just as we did in the first exercise, we can search for layers in ArcGIS Online that make our map more meaningful.
 
-[Dissemination areas](https://www12.statcan.gc.ca/census-recensement/2011/ref/dict/geo021-eng.cfm) (DAs) are the smallest geographic area used in the Canadian Census data and represent 400 to 700 individuals or approximately 250 households.
+Census data from [Statistics Canada](https://open.canada.ca/data/en/dataset/3cf36302-1060-444e-988a-d97b6db5ad240) is normally a great place to find population information, but it's also usually distributed by area, whether Census subdivisions or dissemination areas. Two layers of polygons stacked on top of one another are difficult to view.
 
-Adding data on population and dwelling counts to our map helps contextualize the locations of Vancouver's homeless shelters.
+[Agriculture and Agri-Food Canada](https://www.agr.gc.ca/eng/agriculture-and-agri-food-canada/?id=1395690825741) has a robust [ArcGIS Online presence](http://bit.ly/16o91lM), and they also happen to publish population data in a way more useful for our purposes. They produce the [Canadian Ecumene Database](https://open.canada.ca/data/en/dataset/3f599fcb-8d77-4dbb-8b1e-d3f27f932a4b) representing populated places. Ecumene is a word meaning "inhabited lands."
+
+Let's see if we can find and add this dataset to our web map.
 
 To Do
 {: .label .label-green }
-From your web map, click the **Add** dropdown arrow and select **Browse Living Atlas Layers**.
+From your web map, click the **Add** dropdown arrow and select **Search for Layers**. From the dropdown arrow, make sure **ArcGIS Online** is selected.
 
-*1*{: .circle .circle-blue} In the search box, type **census canada dissemination** and click the plus sign next to **Canadian Population & Dwelling Counts by Dissemination Area, 2016** to add it to the map.
+*1*{: .circle .circle-blue} In the search box, type **canada population ecumene** and click the plus sign next to two layers for comparison. **The Canadian Ecumene (CanEcumene) 2.0 GIS Database** and **Populated Places - Canadian Ecumene**.
+
+The latter layer is produced by Esri Canada using data from The Canadian Ecumene GIS Database.
 
 This data layer uses [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area.
 
