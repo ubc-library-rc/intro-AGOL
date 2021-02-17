@@ -25,6 +25,8 @@ At first glance, the default classification scheme shows that there is a more si
 
 ADD INFO ON CLASSIFICATION METHODS 
 
+In the next section, we'll create a [story map](https://storymaps.arcgis.com/stories) in order to tell a visually rich story of COVID-19 deaths in Canada.
+
 ### ADDITIONAL RESOURCES
 
 [Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
