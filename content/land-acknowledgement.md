@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Land Acknowledgement
 nav_order: 2
+title: Land acknowledgement 
 ---
+# Land acknowledgement
 
-UBC is located on the traditional, ancestral, and unceded territory of the [xʷməθkʷəy̓əm (Musqueam)](https://www.musqueam.bc.ca/) people.
+Before beginning the workshop, we'd like to acknowledge the indigenous lands where we are located.    
 
-![ubc.jpg](https://raw.githubusercontent.com/fiddleHeads/missing-mapathon/main/UBC.jpg)
+UBC Vancouver is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Stz'uminus, S’ólh Téméxw (Stó:lō), Skwxwú7mesh-ulh Temíx̱w (Squamish), and Coast Salish peoples.
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.268264,-123.157480" style="width:100%; height:300px; border:none;"></iframe>
 
-Whose Indigenous territory(ies) do you live on?
-
-You can check it out at [Native Land](https://native-land.ca/).
-
-![nativeland.jpg](https://raw.githubusercontent.com/fiddleHeads/missing-mapathon/main/nativeLand.jpg)
+Please take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
