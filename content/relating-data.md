@@ -23,44 +23,39 @@ Let's play around with the symbology to see how we can best show the relationshi
 
 We also see that once we select two attributes instead of one to display, different drawing styles become available. The default is the proportional symbology we previously used to show deaths from COVID-19 around the world.
 
-*13*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click once this to see what happens to the symbology in the map.
+*3*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click this once to see what happens to the symbology in the map.
 
-What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use. 
+What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use.
 
-*1*{: .circle .circle-blue} 
+For more information on the Relationship mapping style, chcek out this [How to Smart Map: Relationships](https://www.arcgis.com/apps/Cascade/index.html?appid=28f71c557007440ebd936b21969ffff8) story map.
 
-We plan on creating a chloropleth symbology to illustrate the relationship between two variables, deaths and the population 60 to 85 years and older. Data normalization refers to using rates or percentages instead of absolute values, which is important because each health region in our map is a different size with different number of people living in each region. Normalization allows us to better compare rates of death across areas normalizing for population. 
+*4*{: .circle .circle-blue} Click the **Options** button on the Relationship drawing style again to open the symbology properties.
 
-This data layer uses [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area.
+We are immediately presented with three dropdown menus for Focus, Grid Size, and classification Method, respectively.
 
-- The variable is usually quantitative
-- A color is associated with an attribute value
-- It's a method for showing how a measurement varies across a geographic area
+*5*{: .circle .circle-blue} Ignoring that for now, first expand the **Deaths** layer below these dropdown menus. 
 
-You can read more about and see examples of chloropleth [maps](https://arcg.is/15Xffe).
+We want to turn the deaths into a ratio of number of deaths divided by total population instead of using deaths as an absolute number because it's a better way to compare populations across different health regions.
 
-At first glance, the default classification scheme shows that there is a more significant relationship between these two variables in British Columbia, Alberta, Quebec and Ontario.
+*6*{: .circle .circle-blue} To do this, select **2019 Total Population** under the **Divided By** dropdown menu.
 
-![quantile](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/quantile.jpg)
+Leave the **Focus** as **High values** because we're interested in where high death rates per total population overlap with a higher population 85 years and older. 
 
-*7*{: .circle .circle-blue} Select the **Relationship** option by clicking on it again and notice that the classification method is listed as Quantile.
+*7*{: .circle .circle-blue} Change the **Grid size** to **2x2** which shows above and below average rather than spreading the data values over low, middle, and high categories.
 
-ADD INFO ON CLASSIFICATION METHODS 
+By default, the map uses the **Quantile** classification method to spread the data over enough categories to illustrate differences. Let's play around with a couple different classification methods.
+
+*8*{: .circle .circle-blue} Take a look at both the **Natural Breaks** and **Quantile** classification methods and notice what different maps these two methods produce. Natural Breaks classifies the data according to natural breaks in the data.
+
+We'll use the default Quantile classification method. The risk in doing this is the implication of more heterogeneity in the data than actually exists, but it is telling us the same story that we've seen in the other maps we've produced, where higher rates of death relate to higher population of 85 and older where the population density is highest.
+
+*9*{: .circle .circle-blue} Ensure **Quantile** is selected and click **OK** and then **DONE**. Save your map.
+
+Your map should look something like the below image.
+
+![bivariate.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/bivariate.png)
 
 In the next section, we'll create a [story map](https://storymaps.arcgis.com/stories) in order to tell a visually rich story of COVID-19 deaths in Canada.
-
-### ADDITIONAL RESOURCES
-
-[Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
-
-[ArcGIS Online Relationship Style](https://enterprise.arcgis.com/en/portal/latest/use/style-numbers.htm#ESRI_SECTION1_C7FAB061D60344CAB6AC9A190DAED1D2)
-
-[Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
-
-[Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
-
-[Evaluation of Methods for Classifying Epidemiological Data on Chloropleth Maps in Series](http://php.scripts.psu.edu/users/c/a/cab38/Pub_scans/Brewer-Pickle_2002_Epi-Choropleth-Classing_Annals.pdf)
-
 
 
 
