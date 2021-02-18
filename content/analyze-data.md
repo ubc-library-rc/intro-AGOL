@@ -107,7 +107,20 @@ In this case, the fourth class represents a range from under 2.77%-8%. Because c
 
 *15*{: .circle .circle-blue} Uncheck the **Classify** button and ensure that **Above and Below** is selected, click **OK** and then **Done**.
 
-Your map should look something like the image below. Keep in mind that we never reconfigured our pop-up to include the Case Fatality Ratio, but we'll do that at a later point in the workshop.
+Let's configure the popups to include the CFR.
+
+*16*{: .circle .circle-blue} Select **Configure Popup** by clicking on the ellipsis and click on **ADD** under **Attribute Expressions**.
+
+*17*{: .circle .circle-blue} Edit the name to be **Case Fatality Ratio (%)**.
+
+*18*{: .circle .circle-blue} Copy and paste the following expression in the expression window and then click **OK**
+
+```json
+    ($feature.Deaths / ($feature.Deaths + $feature.Recovered) * 100)
+```
+Now when you click on the popup, the CFR will appear at the bottom.
+
+Your map should look something like the image below. 
 
 ![aboveBelow.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/aboveBelow.png)
 
