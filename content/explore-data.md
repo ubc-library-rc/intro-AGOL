@@ -34,13 +34,13 @@ Then click **Clear Selection**.
 
 *6*{: .circle .circle-blue} Next, from the same place, select **Filter**. This will open a window where you can customize an expression to select only the records you specify.
 
-Let's filter the data in order to find those places in the world that have surpassed 1,000 deaths from COVID-19.
+Let's filter the data in order to find those places in the world that have surpassed 10,000 deaths from COVID-19.
 
 *7*{: .circle .circle-blue} From the dropdown arrow on the left, select the **Deaths** field.
 
 From the dropdown arrow in the centre, select **is greater than**.
 
-In the far right field, type in **1000**.
+In the far right field, type in **10000**.
 
 Then click **APPLY FILTER AND ZOOM TO**.
 
