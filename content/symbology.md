@@ -64,6 +64,6 @@ Be aware that it is easy to misrepresent data based on the symbology you choose 
 
 ![propMap](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/propMap.jpg)
 
-Your map should end up looking something like [this web map](https://arcg.is/8i8uv0).
+Your map should end up looking something like ![propSymb.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/propSymb.png).
 
-In the next section you'll learn how to add your own data to a web map.
+In the next section we'll add additional data from ArcGIS Online and customize the symbology and popups to analyze the data in different ways.
