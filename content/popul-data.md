@@ -49,11 +49,11 @@ You'll notice that the default symobology for the **Populated Places** layer is 
 
 *9*{: .circle .circle-blue} Open the symbology (Change Style) for this layer and click on **OPTIONS** under **Select a drawing style** and then on the word **Symbols**.
 
-*10*{: .circle .circle-blue} In the editable box that has a number with a # symbol in front of it, copy and paste #008387 and click **OK**, then **OK** again, then **DONE**, then save your map.
+*10*{: .circle .circle-blue} In the editable box that has a number with a # symbol in front of it, copy and paste #0070FF and click **OK**, then **OK** again, then **DONE**, then save your map.
 
-This green colour is more neutral and also provides decent contrast with the symbology from our CFR layer. Your map should look something like this:
+The blue colour is more neutral and also provides decent contrast with the symbology from our CFR layer. Your map should look something like this:
 
-![webmap2.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/webMap2.png)
+![popPlaces.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/popPlaces.png)
 
 This population data provides a helpful visualization of how population is distributed across Canada, and we can see that generally speaking, areas with greater population densities have a higher case fatality ratio.
 
