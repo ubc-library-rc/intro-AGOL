@@ -10,7 +10,7 @@ Microphones are muted by default to improve audio quality and recording is disab
 
 The Zoom toolbar provides several ways to be part of the conversation:
 
-<img src="content/images/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
+<img src="https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
 <br/>
 ## Reactions menu 
 Open the _Reactions_ menu and click an icon to communicate with the instructors.
