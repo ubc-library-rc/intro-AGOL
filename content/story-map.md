@@ -23,7 +23,9 @@ They can be used as a presentation tool in place of PowerPoint, especially if yo
 - [The GIS community responds to the COVID-19 crisis](https://arcg.is/1qfqiD)
   - This represents the latest template that we will use today which resembles a scrolling website
 
-In this section, we'll add the web map we created to a Story Map and practice adding other content as well.
+In this section, we'll add the web maps we created to a Story Map and practice adding other content as well.
+
+First uncheck all the layers except **Coronavirus COVID-19 Cases V2 - Deaths Proportional** in your map and save it.
 
 There are a couple different ways to create a Story Map.
 
@@ -45,17 +47,17 @@ This will take you to a template with your web map already embedded.
 
 *3*{: .circle .circle-blue} Add a title and subtitle. You can copy and paste the text below to use.
 
-**Title**: Bring Your Pets
+**Title**: Mapping Coronavirus Deaths
 
-**Subtitle**: Homeless Shelters in Vancouver That Accept Pets
-
-*4*{: .circle .circle-blue} You can click on the **Add image or video** to upload a file from your computer to be used as the backdrop for the title. You might want to add a picture of your own pet. Unfortunately, this section of the story map doesn't support using a URL link for media.
+**Subtitle**: Visualizing COVID-19 Deaths in ArcGIS Online
 
 Scrolling down, you'll see your interactive web map. The popups will work as you configured them.
 
 Let's add some context before the web map.
 
-*5*{: .circle .circle-blue} Above the web map, click on the + sign to see the options.
+*4*{: .circle .circle-blue} Above the web map, click on the + sign to see the options.
+
+*5*{: .circle .circle-blue} Choose to add an **Image**, use the **Link** option and past the following URL: https://ginsberg.umich.edu/files/gb/field/image/covid-19_C.jpg
 
 *6*{: .circle .circle-blue} Choose to add a **Heading.**
 
