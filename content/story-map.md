@@ -59,35 +59,34 @@ Let's add some context before the web map.
 
 *5*{: .circle .circle-blue} Choose to add an **Image**, use the **Link** option and past the following URL: https://ginsberg.umich.edu/files/gb/field/image/covid-19_C.jpg
 
-*6*{: .circle .circle-blue} Choose to add a **Heading.**
+*6*{: .circle .circle-blue} Next choose to add a **Heading** by click the + sign below the image you just added.
 
-You might ask a question in the heading, such as **Did you know that pets are a barrier to leaving an abusive relationship?**
+You might ask a question in the heading, such as **A Brief History of COVID-19**
 
 *7*{: .circle .circle-blue} Add text above the map by clicking on the plus sign and selecting **Text**.
-For each paragraph, click on the plus sign and copy and paste the text in the paragraphs below.
+Copy and paste the text in the paragraphs below. Note that the numbers will have changed by the time you are doing this exercise.
 
-*On June 16, 2020, the news site The Conversation published an article about one of the barriers preventing people from leaving abusive relationships: pets. The article states that some people may be more reluctant to leave an abusive relationship if they are unable to take their pet with them or are worried for its safety if they leave it home with the abuser.*
+*The SARS-CoV-2 virus, more commonly known as COVID-19, originated in Wuhan, China in December 2019. Fourteen months later, there are a documented 109,887,743 cases around the world and 2,429,689 deaths. More than 61,867,144 people have recovered*
 
-*Geographic data on intimate partner violence (IPV) shelters is difficult to find because making their locations known to the public would also make their locations knowable to abusers.*
+*The most recent COVID-19 statistics are tracked in an Esri Dashboard hosted by John Hopkins University.*
 
-*Evidence in the United States suggests that there is lack of sufficient housing in IPV shelters and also that for some women, homelessness intersects with domestic violence.*
+*Below are a series of web maps representing COVID-19 deaths in different ways, beginning with a global view and then narrowing in on health regions across the country of Canada.*
 
-*Assuming that homeless shelters are one place domestic abuse survivors sometimes access for safe harbor, we mapped which homeless shelters in Vancouver allow people to bring their pets.*
+*8*{: .circle .circle-blue} Add a link to the word Dashboard with this URL: https://coronavirus.jhu.edu/map.html
 
-*8*{: .circle .circle-blue} Click the plus sign again and select **Image**.
-Use this URL to add this infographic about the relationship between domestic violence and pets.
+*9*{: .circle .circle-blue} Scroll beneath the embedded web map and add the following caption: COVID-19 Deaths Greater Than 10,000
 
-https://i0.wp.com/www.seattledogspot.com/wp-content/uploads/2016/10/pets-domestic-violence_hj86o8-300x266-e1527625140420.png?ssl=1
+*10*{: .circle .circle-blue} Click the + sign below and select **Map** and then add the same web map we created in this workshop. Hover over the top middle of the map and click on the pencil icon to edit it. In edit mode, click the **Settings** wheel to turn the **Legend** and then **Place map** in the lower right.
 
-*9*{: .circle .circle-blue} Scroll beneath the web map, click the plus sign, and select **Embed**. Note that if you have a public ArcGIS Online account, this functionality may not be available.
+This will open up a window to allow you to choose which layers to show in this map.
 
-[Census Mapper](https://censusmapper.ca/) is a great resource for accessing official Census maps showcasing their data as well as maps created by users.
+*11*{: .circle .circle-blue} Make sure all layers are off except **Case Fatality Ratio (%)** and **Populated Places**. Click the **Settings** wheel to turn the **Legend** on for this map and place it.
 
-For our story map, we'll use Census Mapper's [Low Income Explorer](https://censusmapper.ca/maps/844) to embed in our story map.
+*12*{: .circle .circle-blue} Recaption this map as **Case Fatality Ratio (%)** 
 
-Unfortunately, this doesn't embed the map itself, just a link to the map, but it adds some nice context to our story.
+*13*{: .circle .circle-blue} Click the + sign below again and add the web map, this time with only the **Deaths Per Pop & Pop 85 +** layer turned on. Turn the legend on for this map, too.
 
-Other relevant Census mapper maps include this [Dissemination Area Mapping of Household Income](https://censusmapper.ca/maps/1563#14/49.2783/-123.1140) and this [2016 Median Household Income](https://censusmapper.ca/maps/884), both of which use 2016 Canada Census data.
+*14*{: .circle .circle-blue} Recaption this map as **Relationship between deaths per total population and population 85 years and older**.
 
 If you have more time, you can experiment with adding more content to your story map. 
 
@@ -98,11 +97,11 @@ You can change the style of your Story Map in a certain section by choosing to a
 
 You can also change some aspects of the design of your Story Map by clicking the **Design** button at the top right of the page.
 
-*10*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
+*15*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
 
-*11*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
+*16*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
 
-Your story map should end up looking something like this [one](https://arcg.is/0qWneL).
+Your story map should end up looking something like this [one](https://arcg.is/mKjuy).
 
 Esri recently started promoting this style of the Story Map we have been experimenting with here.
 
