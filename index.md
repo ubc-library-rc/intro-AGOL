@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Outline
-nav_order: 1
+nav_order: 3
 ---
 
 # Visualizing Data in ArcGIS Online
