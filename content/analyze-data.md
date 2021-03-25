@@ -40,39 +40,39 @@ Good reasons to use data available online through Esri include:
 - Ability to create new fields and manipulate data using [Arcade](https://www.esri.com/arcgis-blog/products/apps/uncategorized/introducing-arcade/) expressions
 - Curated data that would be difficult to find otherwise, like the the Health Region Summaries
 
-Let's check and see whether we can add this dataset from ArcGIS Online itself to our map. 
+We'll add this dataset as a [web service](https://doc.arcgis.com/en/arcgis-online/reference/arcgis-server-services.htm) hosted by Esri in ArcGIS Online to our map. 
 
-*1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Search for Layers**.  
+*1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Add layer from web**.  
 
-*2*{: .circle .circle-blue} Ensure you are searching ArcGIS Online by clicking the dropdown arrow and selecting **ArcGIS Online** below **Living Atlas** among the list of options. 
+*2*{: .circle .circle-blue} Copy and paste the following URL in the box and click **OK**. 
 
-*3*{: .circle .circle-blue} Search for **health region summaries canada** and click the plus symbol to add **Health Region Summaries** to the map before clicking the back arrow at the top of the search box to see the content list for the map.
+This layer may have a visibility range associated with it that requires you to zoom in to see it.
 
-*4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
+*3*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
 
 Let's try and understand the severity of COVID-19 in Canada using this data. 
 
 [Two measures used to assess severity of an infectious disease](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) are the infection fatality ratio (IFR) and the case fatality ratio (CFR). We only have data to calculate the CFR.
 
-*5*{: .circle .circle-blue} First create a copy of this layer like we did in a previous step so we can create different layers with the data (hint: ellipsis > Copy).
+*4*{: .circle .circle-blue} First create a copy of this layer like we did in a previous step so we can create different layers with the data (hint: ellipsis > Copy).
 
-*6*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
+*5*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
 
 We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below because this is meant to better represent an ongoing epidemic. After the pandemic is over, it will be more appropriate to use a formula which takes the number of deaths divided by the number of cases and multiplies it by 100.
 
 ![CFR.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/CFR_1.jpg)
 
-*7*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
+*6*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
 
-*8*{: .circle .circle-blue} Select **Custom expression** at the very bottom. This will open a window where you can use the Arcade language to build expressions.
+*7*{: .circle .circle-blue} Select **Custom expression** at the very bottom. This will open a window where you can use the Arcade language to build expressions.
 
-*9*{: .circle .circle-blue} Copy and paste the following expression in the window.
+*8*{: .circle .circle-blue} Copy and paste the following expression in the window.
 
 ```json
     ($feature.Deaths / ($feature.Deaths + $feature.Recovered) * 100)
 ```
 
-*10*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **OK**.
+*9*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **OK**.
 
 The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area, to show the Case Fatality Ratio.
 
@@ -83,11 +83,11 @@ In chloropleth mapping:
 
 You can read more about and see examples of chloropleth [maps](https://arcg.is/15Xffe).
 
-*11*{: .circle .circle-blue} Click on **Counts and Amounts**, and you'll notice a dark cluster of health regions in eastern Canada. 
+*10*{: .circle .circle-blue} Click on **Counts and Amounts**, and you'll notice a dark cluster of health regions in eastern Canada. 
 
 The default symbology uses **High to Low** and provides a range where 3.3% CFR and higher is given the full dark purple color and those with a CFR of .5% or lower is given the full yellow color. Hovering over the *x* shows the average CFR in each health region, 1.9%.
 
-*12*{: .circle .circle-blue} Select the **Above and Below** theme from the dropdown menu and notice how the algorithm selects breaks in the data that are more in line with what the histogram is telling us about the how the data is grouped.
+*11*{: .circle .circle-blue} Select the **Above and Below** theme from the dropdown menu and notice how the algorithm selects breaks in the data that are more in line with what the histogram is telling us about the how the data is grouped.
 
 This setting is telling us that green health regions on the map have lower than normal CFR rates and the darker red health regions have higher than normal CFR rates.
 
@@ -97,23 +97,23 @@ To learn more about these different themes and also about whether to classify da
 
 Let's experiment with classifying the data. 
 
-*13*{: .circle .circle-blue} Check the **Classify Data** box, which defaults to using a [Natural Breaks](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification) classification method which attemps to mathematically find "natural" classes that group together in a dataset. It also defaults to four classes.
+*12*{: .circle .circle-blue} Check the **Classify Data** box, which defaults to using a [Natural Breaks](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification) classification method which attemps to mathematically find "natural" classes that group together in a dataset. It also defaults to four classes.
 
 You'll notice that the range for the fourth class is largest, from 3.9% to 8%.
 
-*14*{: .circle .circle-blue} Now select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features.
+*13*{: .circle .circle-blue} Now select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features.
 
 In this case, the fourth class represents a range from under 2.77%-8%. Because classifying the data does not provide any additional meaningful detail and because we're not asking specific questions related to certain thresholds, it makes more sense to leave the data unclassified. What we can say is that the case fatality ratio is much higher in certain health regions in eastern Canada than throughout the rest of Canada.
 
-*15*{: .circle .circle-blue} Uncheck the **Classify** button and ensure that **Above and Below** is selected, click **OK** and then **Done**.
+*14*{: .circle .circle-blue} Uncheck the **Classify** button and ensure that **Above and Below** is selected, click **OK** and then **Done**.
 
 Let's configure the popups to include the CFR.
 
-*16*{: .circle .circle-blue} Select **Configure Popup** by clicking on the ellipsis and click on **ADD** under **Attribute Expressions**.
+*15*{: .circle .circle-blue} Select **Configure Popup** by clicking on the ellipsis and click on **ADD** under **Attribute Expressions**.
 
-*17*{: .circle .circle-blue} Edit the name to be **Case Fatality Ratio (%)**.
+*16*{: .circle .circle-blue} Edit the name to be **Case Fatality Ratio (%)**.
 
-*18*{: .circle .circle-blue} Copy and paste the following expression in the expression window and then click **OK**
+*17*{: .circle .circle-blue} Copy and paste the following expression in the expression window and then click **OK**
 
 ```json
     ($feature.Deaths / ($feature.Deaths + $feature.Recovered) * 100)
