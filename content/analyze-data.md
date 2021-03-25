@@ -120,7 +120,7 @@ Let's configure the popups to include the CFR.
 ```
 Now when you click on the popup, the CFR will appear at the bottom.
 
-Your map should look something like the image below. 
+Your map should look something like the image below, but keep in mind the data is constantly changing, so it won't look exactly the same.
 
 ![aboveBelow.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/aboveBelow.png)
 
