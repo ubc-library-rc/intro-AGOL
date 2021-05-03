@@ -57,6 +57,10 @@ Your map should look something like the below image.
 
 In the next section, we'll create a [story map](https://storymaps.arcgis.com/stories) in order to tell a visually rich story of COVID-19 deaths in Canada.
 
+***
+
+For additional examples of bivariate chloropleth maps, see how Metro Vancouver is using a variety of indicators derived from Census data to explore equity and marginalization as part of their [Social Equity and Regional Growth Study Final Report](http://www.metrovancouver.org/boards/RegionalPlanning/RPL_2021-Mar-5_AGE.pdf#page=20). See [maps 50-57](http://www.metrovancouver.org/services/regional-planning/PlanningPublications/Equity_Regional_Growth_Management_Study_Phase2-Appendix-I-Maps.pdf) for bivariate chloropleth maps and the preceding slides for examples of chloropleth maps using only one variable. 
+
 
 
 
