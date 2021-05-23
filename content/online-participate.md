@@ -10,12 +10,12 @@ Microphones are muted by default to improve audio quality and recording is disab
 
 The Zoom toolbar provides several ways to be part of the conversation:
 
-<img src="../content/images/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
+<img src="../images/zoom_toolbar.png" alt="Zoom toolbar" width="510"/>
 <br/>
 ## Reactions menu
 Open the _Reactions_ menu and click an icon to communicate with the instructors.
 
-![Reactions menu](..content/images/reactions.png)
+![Reactions menu](../images/reactions.png)
 
 Use this to **answer yes/no** questions or to **raise your hand** when instructors invite you to ask a question, comment, or share your screen.
 <br/>
@@ -30,8 +30,8 @@ In some cases instructors may invite you to share your screen. Raise your hand t
 ## Contribute to the Whiteboard
 The _Whiteboard_ is a collaborative space that everyone can annotate with drawings and text. When the whiteboard is shared click _View options_ and select _Annotate_.
 
-![Menu with Annotate option](..content/images/open_annotate_toolbar.png)
+![Menu with Annotate option](../images/open_annotate_toolbar.png)
 
 This opens the annotation toolbar. Drawings and text you add to the screen will be visible to everyone in the session or breakout room.
 
-![The annotation toolbar](..content/images/annotate_toolbar.png)
+![The annotation toolbar](../images/annotate_toolbar.png)

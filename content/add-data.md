@@ -15,7 +15,7 @@ The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of 
 
 *1*{: .circle .circle-blue} In the search bar, type “COVID-19 Canada” to see what layers may be available. Click on “Coronavirus COVID-19 Cases V2.” An information dialogue will open with information about this layer.   
 
-![add_LA_data](../add_LA_data.png)
+![add_LA_data](..images/add_LA_data.png)
 
 *Note: If you only have a public ArcGIS account, you will have access to fewer layers in the Living Atlas.*
 
@@ -28,6 +28,6 @@ The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of 
 You may notice that the data for Canada is less detailed than the data for the United States. Whereas in Canada, data is only reported at the province level in this dataset, in the U.S. it is reported at the state and county level.
 
 *5*{: .circle .circle-blue} Click on **Content** in the upper left to see the different layers currently in the map.
-![content](../content.jpg)
+![content](..images/content.jpg)
 
 Next, we'll experiment with changing the basemap.
