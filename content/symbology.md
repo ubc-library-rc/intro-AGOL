@@ -62,8 +62,8 @@ Be aware that it is easy to misrepresent data based on the symbology you choose 
 
 *6*{: .circle .circle-blue} Save your map.
 
-![propMap](../images/propMap.jpg)
+![propMap](..content/images/propMap.jpg)
 
-Your map should end up looking something like ![propSymb.png](../images/propSymb.png).
+Your map should end up looking something like ![propSymb.png](..content/images/propSymb.png).
 
 In the next section we'll add additional data from ArcGIS Online and customize the symbology and popups to analyze the data in different ways.

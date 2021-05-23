@@ -66,7 +66,7 @@ Let's try and understand the severity of COVID-19 in Canada using this data.
 
 We will use a calculation for CFR [restricting our analysis to resolved cases](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) which is represented by the formula below because this is meant to better represent an ongoing epidemic. After the pandemic is over, it will be more appropriate to use a formula which takes the number of deaths divided by the number of cases and multiplies it by 100.
 
-![CFR.jpg](../images/CFR_1.jpg)
+![CFR.jpg](..content/images/CFR_1.jpg)
 
 *7*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
 
@@ -128,7 +128,7 @@ Now when you click on the popup, the CFR will appear at the bottom.
 
 Your map should look something like the image below, but keep in mind the data is constantly changing, so it won't look exactly the same.
 
-![aboveBelow.png](../images/aboveBelow.png)
+![aboveBelow.png](..content/images/aboveBelow.png)
 
 It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
 

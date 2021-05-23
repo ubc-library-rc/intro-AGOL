@@ -33,7 +33,7 @@ You'll notice that the default symobology for the **Populated Places** layer is 
 
 The blue colour is more neutral and also provides decent contrast with the symbology from our CFR layer. Your map should look something like this:
 
-![popPlaces.png](../images/popPlaces.png)
+![popPlaces.png](..content/images/popPlaces.png)
 
 This population data provides a helpful visualization of how population is distributed across Canada, and we can see that generally speaking, areas with greater population densities have a higher case fatality ratio.
 

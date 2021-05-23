@@ -93,7 +93,7 @@ If you have more time, you can experiment with adding more content to your story
 For example, you can do a Google Image search to find images to add.
 
 You can change the style of your Story Map in a certain section by choosing to add a different template.
-![template.jpg](../images/storymap.jpg)
+![template.jpg](../images/template.jpg)
 
 You can also change some aspects of the design of your Story Map by clicking the **Design** button at the top right of the page.
 
