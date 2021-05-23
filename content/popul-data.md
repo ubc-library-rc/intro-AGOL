@@ -19,46 +19,22 @@ To Do
 {: .label .label-green }
 From your web map, click the **Add** dropdown arrow and select **Search for Layers**. From the dropdown arrow, make sure **ArcGIS Online** is selected.
 
-*1*{: .circle .circle-blue} In the search box, type **canada population ecumene** and click the plus sign next to two layers for comparison. **The Canadian Ecumene (CanEcumene) 2.0 GIS Database** and **Populated Places - Canadian Ecumene**. Click the back arrow to see the contents in your map again.
+*1*{: .circle .circle-blue} In the search box, type **canada population ecumene** and click the heading for the **Populated Places - Canadian Ecumene** layer to read about the dataset before clicking on **Add to Map**. Click the back arrow to see the contents in your map again.
 
-The latter layer is produced by Esri Canada using data from The Canadian Ecumene GIS Database. Uncheck this layer in the Table of Contents for now.
+**Populated Places** is produced by Esri Canada using data from The Canadian Ecumene GIS Database, which includes the custom boundaries for more than 4,200 populated areas across Canada. You can read more about the database [here](https://open.canada.ca/data/en/dataset/3f599fcb-8d77-4dbb-8b1e-d3f27f932a4b).
 
-You'll notice that the The Canadian Ecumene (CanEcumene) 2.0 GIS Database is automatically located toward the bottom of your contents list and cannot be moved up or down. This means that we will be unable to view the data unless we change the transparency of our Case Fatality Ratio (CFR) layer.
-
-*2*{: .circle .circle-blue} Click on the CFR layer and then on the ellipsis and select **Transparency** from the dropdown. Play around with the slider to view different transparencies and position it around 25%.
-
-*3*{: .circle .circle-blue} Click on the **The Canadian Ecumene (CanEcumene) 2.0 GIS Database** layer to expand it and uncheck all but **Populated Places.*
-
-Even with the transparency, this makes for a messy map.
-
-*4*{: .circle .circle-blue} Uncheck **Populated Places** and check **Populated Places Area** instead.
-
-This is less messy, still provides a sense of densely populated areas, but is hard to see.
-
-*5*{: .circle .circle-blue} Uncheck the whole layer and check the box next to the other layer we added from ArcGIS Online, the **Populated Places - Canadian Ecumene** layer.
-
-This is the same data as the **Populated Places Area** from the Database layer, but the difference is we're able to move this layer above our CFR layer for better visbility.
-
-*6*{: .circle .circle-blue} If it's not already at the top in your Table of Contents, hover over the left side of the layer with your cursor and then click on the three vertical dots to move it to the top. Make sure it is checked on.
-
-*7*{: .circle .circle-blue} You can remove the **The Canadian Ecumene (CanEcumene) 2.0 GIS Database** layer from the map and save your map.
-
-*8*{: .circle .circle-blue} We no longer need our CFR layer to have any transparency, so you can change that back to 0%.
+*2*{: .circle .circle-blue} If it's not already at the top in your Table of Contents, hover over the left side of the layer with your cursor and then click on the three vertical dots to move it to the top. Make sure it is checked on.
 
 You'll notice that the default symobology for the **Populated Places** layer is red, which is a colour I recommend using sparingly and with intention in maps. In this case, it's also hard to see.
 
-*9*{: .circle .circle-blue} Open the symbology (Change Style) for this layer and click on **OPTIONS** under **Select a drawing style** and then on the word **Symbols**.
+*3*{: .circle .circle-blue} Open the symbology (Change Style) for this layer and click on **OPTIONS** under **Select a drawing style** and then on the word **Symbols**.
 
-*10*{: .circle .circle-blue} In the editable box that has a number with a # symbol in front of it, copy and paste #0070FF and click **OK**, then **OK** again, then **DONE**, then save your map.
+*4*{: .circle .circle-blue} In the editable box that has a number with a # symbol in front of it, copy and paste #0070FF and click **OK**, then **OK** again, then **DONE**, then save your map.
 
 The blue colour is more neutral and also provides decent contrast with the symbology from our CFR layer. Your map should look something like this:
 
-![popPlaces.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/popPlaces.png)
+![popPlaces.png](../images/popPlaces.png)
 
 This population data provides a helpful visualization of how population is distributed across Canada, and we can see that generally speaking, areas with greater population densities have a higher case fatality ratio.
 
 In the next section, we'll compare two variables using what's called a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/).
-
-
-
-

@@ -15,10 +15,10 @@ They can be used as a presentation tool in place of PowerPoint, especially if yo
 ### Examples of Story Maps
 
 - [Chloropleth Map](https://arcg.is/15Xffe)
-  - This uses a Map Journal template and is actually a story map all about choloropleth maps
+  - This uses a Map Journal template and is actually a story map all about chloropleth maps
 - [The Assassination of Abraham Lincoln](https://arcg.is/1LSaGu)
   - This uses a Map Tour template
-- [Devastation in Nepal: Katmandu Before and After the April 2015 Earthquake](https://arcg.is/1zvCaX)
+- [Devastation in Nepal: Kathmandu Before and After the April 2015 Earthquake](https://arcg.is/1zvCaX)
   - This story map uses Map Series and Swipe story map templates
 - [The GIS community responds to the COVID-19 crisis](https://arcg.is/1qfqiD)
   - This represents the latest template that we will use today which resembles a scrolling website
@@ -33,7 +33,7 @@ To start from scratch, go to [Story Maps](https://storymaps.arcgis.com/) and cli
 
 For this workshop, we'll use a different method.
 
-To Do 
+To Do
 {: .label .label-green }
 From the top left of your web map, click on the **Home** dropdown arrow and select **Content.**
 
@@ -82,18 +82,18 @@ This will open up a window to allow you to choose which layers to show in this m
 
 *11*{: .circle .circle-blue} Make sure all layers are off except **Case Fatality Ratio (%)** and **Populated Places**. Click the **Settings** wheel to turn the **Legend** on for this map and place it.
 
-*12*{: .circle .circle-blue} Recaption this map as **Case Fatality Ratio (%)** 
+*12*{: .circle .circle-blue} Recaption this map as **Case Fatality Ratio (%)**
 
 *13*{: .circle .circle-blue} Click the + sign below again and add the web map, this time with only the **Deaths Per Pop & Pop 85 +** layer turned on. Turn the legend on for this map, too.
 
 *14*{: .circle .circle-blue} Recaption this map as **Relationship between deaths per total population and population 85 years and older**.
 
-If you have more time, you can experiment with adding more content to your story map. 
+If you have more time, you can experiment with adding more content to your story map.
 
 For example, you can do a Google Image search to find images to add.
 
 You can change the style of your Story Map in a certain section by choosing to add a different template.
-![storymap.jpg](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/storymap.jpg)
+![template.jpg](../images/storymap.jpg)
 
 You can also change some aspects of the design of your Story Map by clicking the **Design** button at the top right of the page.
 
@@ -108,5 +108,3 @@ Esri recently started promoting this style of the Story Map we have been experim
 Their older styles, called Classic Story Maps, offer different functionality and in some cases, more map-centric Story Maps.
 
 If you are interested in checking out other possibilities, you can tour the Classic Story Map [gallery](https://storymaps-classic.arcgis.com/en/gallery/#s=0&md=storymaps-apps:map-tour).
-
-

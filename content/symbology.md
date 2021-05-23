@@ -22,7 +22,7 @@ Change the size to **12 points**.
 
 *2*{: .circle .circle-blue} Click **OK**.
 
-Notice that you can also adjust the transparency of the layer and the visible range. 
+Notice that you can also adjust the transparency of the layer and the visible range.
 For our purposes, we'll accept the defaults.
 
 Click **OK**.
@@ -37,11 +37,11 @@ Let's experiment with another kind of symbology.
 
 *3*{: .circle .circle-blue} Click the ellipsis (the three dots) under the **Deaths** layer and select **Copy**.
 
-This will create a copy of the **Deaths** layer. 
+This will create a copy of the **Deaths** layer.
 
 *4*{: .circle .circle-blue} Click the **Change Styles** icon again and select **Deaths** from the dropdown under **Choose an attribute to show**.
 
-This will prompt the appearance of different symbology options. 
+This will prompt the appearance of different symbology options.
 
 By default **Counts and Amounts (Size)** is selected.
 
@@ -62,8 +62,8 @@ Be aware that it is easy to misrepresent data based on the symbology you choose 
 
 *6*{: .circle .circle-blue} Save your map.
 
-![propMap](https://raw.githubusercontent.com/fiddleHeads/intro-AGOL/master/content/images/propMap.jpg)
+![propMap](../images/propMap.jpg)
 
-Your map should end up looking something like ![propSymb.png](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/propSymb.png).
+Your map should end up looking something like ![propSymb.png](../images/propSymb.png).
 
 In the next section we'll add additional data from ArcGIS Online and customize the symbology and popups to analyze the data in different ways.
