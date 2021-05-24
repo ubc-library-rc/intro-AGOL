@@ -11,7 +11,7 @@ To Do
 {: .label .label-green }
 Click on the red circle located in British Columbia to view a pop-up containing information about the number of confirmed, recovered, deaths, and active cases of COVID-19.
 
-![covidCases.jpg](..images/covidCases.jpg)
+![covidCases.jpg](../images/covidCases.jpg)
 
 You'll notice that there are three entries for British Columbia with the same information.
 
@@ -21,7 +21,7 @@ In the **Contents** pane on the left, there are four layers associated with the 
 
 *2*{: .circle .circle-blue} Click on the first layer in the **Contents** pane to explore the data and the tools associated with each layer.
 
-![deathsLyr.jpg](..images/deathsLyr.jpg)
+![deathsLyr.jpg](../images/deathsLyr.jpg)
 
 The far left icon associated with the **Deaths** layer represents the legend.
 

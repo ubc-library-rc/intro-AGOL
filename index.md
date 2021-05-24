@@ -12,12 +12,12 @@ nav_order: 1
 This workshop introduces complete beginners to the [ArcGIS Online](https://www.arcgis.com/home/index.html) platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to be able to create a map, add their own data, and configure a Story Map. By the end of this workshop participants will be able to:
 
   - Discover and explore available geospatial data online
-  - Add data to a map 
+  - Add data to a map
   - Symbolize data
   - Configure pop-ups
   - Embed a map in a Story Map
   - Add photos and text to a Story Map
-  
+
 ### **Workshop Outline**
 
 - Create three web maps using ArcGIS Online
@@ -26,7 +26,7 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
 - Create a story map using your web maps
 
 #### One of the web maps we will build
-![finalMap.jpg](https://raw.githubusercontent.com/ubc-library-rc/intro-AGOL/master/content/images/bivariate.png)
+![finalMap.jpg](../images/bivariate.png)
 
 ### **Setup**
 You will need to sign up for a free ArcGIS public [account](https://www.arcgis.com/home/signin.html) ahead of time. If you already have an account with Esri, you can choose to use your regular sign in or create a separate free account.
