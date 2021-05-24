@@ -26,7 +26,7 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
 - Create a story map using your web maps
 
 #### One of the web maps we will build
-![finalMap.jpg](../images/bivariate.png)
+![bivariate](./images/bivariate.png)
 
 ### **Setup**
 You will need to sign up for a free ArcGIS public [account](https://www.arcgis.com/home/signin.html) ahead of time. If you already have an account with Esri, you can choose to use your regular sign in or create a separate free account.
