@@ -14,8 +14,8 @@ They can be used as a presentation tool in place of PowerPoint, especially if yo
 
 ### Examples of Story Maps
 
-- [Chloropleth Map](https://arcg.is/15Xffe)
-  - This uses a Map Journal template and is actually a story map all about chloropleth maps
+- [Choropleth Map](https://arcg.is/15Xffe)
+  - This uses a Map Journal template and is actually a story map all about choropleth maps
 - [The Assassination of Abraham Lincoln](https://arcg.is/1LSaGu)
   - This uses a Map Tour template
 - [Devastation in Nepal: Kathmandu Before and After the April 2015 Earthquake](https://arcg.is/1zvCaX)

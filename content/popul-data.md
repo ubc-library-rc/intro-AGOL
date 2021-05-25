@@ -37,4 +37,4 @@ The blue colour is more neutral and also provides decent contrast with the symbo
 
 This population data provides a helpful visualization of how population is distributed across Canada, and we can see that generally speaking, areas with greater population densities have a higher case fatality ratio.
 
-In the next section, we'll compare two variables using what's called a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/).
+In the next section, we'll compare two variables using what's called a [bivariate choropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/).

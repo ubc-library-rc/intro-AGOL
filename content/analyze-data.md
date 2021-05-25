@@ -80,14 +80,14 @@ We will use a calculation for CFR [restricting our analysis to resolved cases](h
 
 *10*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **OK**.
 
-The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [chloropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area, to show the Case Fatality Ratio.
+The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [choropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area, to show the Case Fatality Ratio.
 
-In chloropleth mapping:
+In choropleth mapping:
 - The variable is usually quantitative.
 - A color is associated with an attribute value.
 - the shading illustrates how a measurement varies across a geographic area.
 
-You can read more about and see examples of chloropleth [maps](https://arcg.is/15Xffe).
+You can read more about and see examples of choropleth [maps](https://arcg.is/15Xffe).
 
 *11*{: .circle .circle-blue} Click on **Counts and Amounts**, and you'll notice a dark cluster of health regions in eastern Canada.
 

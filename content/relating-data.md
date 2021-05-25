@@ -25,7 +25,7 @@ We also see that once we select two attributes instead of one to display, differ
 
 *3*{: .circle .circle-blue} Scroll down until you see the **Relationship** option and click this once to see what happens to the symbology in the map.
 
-What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate chloropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use.
+What is referred to in ArcGIS Online as a Relationship symbology really refers to a [bivariate choropleth map](https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/), which helps us understand the relationship between two variables. Since we know there is a relationship between deaths due to COVID-19 and age, this seems like an appropriate symbology to use.
 
 For more information on the Relationship mapping style, check out this [How to Smart Map: Relationships](https://www.arcgis.com/apps/Cascade/index.html?appid=28f71c557007440ebd936b21969ffff8) story map.
 
@@ -59,4 +59,4 @@ In the next section, we'll create a [story map](https://storymaps.arcgis.com/sto
 
 ***
 
-For additional examples of bivariate chloropleth maps, see how Metro Vancouver is using a variety of indicators derived from Census data to explore equity and marginalization as part of their [Social Equity and Regional Growth Study Final Report](http://www.metrovancouver.org/boards/RegionalPlanning/RPL_2021-Mar-5_AGE.pdf#page=20). See [maps 50-57](http://www.metrovancouver.org/services/regional-planning/PlanningPublications/Equity_Regional_Growth_Management_Study_Phase2-Appendix-I-Maps.pdf) for bivariate chloropleth maps and the preceding slides for examples of chloropleth maps using only one variable.
+For additional examples of bivariate choropleth maps, see how Metro Vancouver is using a variety of indicators derived from Census data to explore equity and marginalization as part of their [Social Equity and Regional Growth Study Final Report](http://www.metrovancouver.org/boards/RegionalPlanning/RPL_2021-Mar-5_AGE.pdf#page=20). See [maps 50-57](http://www.metrovancouver.org/services/regional-planning/PlanningPublications/Equity_Regional_Growth_Management_Study_Phase2-Appendix-I-Maps.pdf) for bivariate choropleth maps and the preceding slides for examples of choropleth maps using only one variable.
