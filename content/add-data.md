@@ -28,6 +28,6 @@ The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of 
 You may notice that the data for Canada is less detailed than the data for the United States. Whereas in Canada, data is only reported at the province level in this dataset, in the U.S. it is reported at the state and county level.
 
 *5*{: .circle .circle-blue} Click on **Content** in the upper left to see the different layers currently in the map.
-![content](..images/content.jpg)
+![content](../images/content.jpg)
 
 Next, we'll experiment with changing the basemap.
