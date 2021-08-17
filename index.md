@@ -42,4 +42,4 @@ Under Create a free public account, click **Create an ArcGIS Public Account** an
   - UBC's GIS email list: [UBC GIS ListServ](https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&A=1)
   - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com)
   - Sign up for a [GIS consultation](https://researchcommons.library.ubc.ca/consultation-requests/) at the Research Commons
-  - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
+  - UBC Library GIS Help email: library.gis AT ubc.ca
