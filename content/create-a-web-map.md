@@ -8,13 +8,13 @@ has_children: true
 ## CREATE A WEB MAP
 A web map, simply put, is an interactive map. Esri's online platform, called ArcGIS Online, provides an easy way to create a web map. If you haven't done so already, sign into the ArcGIS Online (AGOL) public account you created before.
 
-![webMap1](../images/webMap1.jpg)
+![webMap1](../images/newViewer.png)
 
 To Do
 {: .label .label-green }
 From the ribbon at the top of the page, click on the Map tab. ![Map tab](../images/homeRibbon.jpg)
 
-This will open a new map.
+This will open a new map. If in the upper right it says **Open in new Map Viewer**, click on these words to go to the new map template.
 
 You will see that the map is pre-populated with a topographic basemap and that it comes with built in functionality. Let’s explore some of the things you can do with the map without any modifications.
 
