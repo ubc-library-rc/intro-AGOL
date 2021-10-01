@@ -9,25 +9,32 @@ parent: Create a Web Map
 
 To Do
 {: .label .label-green }
-On the sidebar on the left, click on **Add** dropdown arrow and select **Browse Living Atlas Layers**.
+*1*{: .circle .circle-blue} On the sidebar on the left, click on **Layers**, then on **Add layer** in the **Layers** pane that opens.
+
+*2*{: .circle .circle-blue} From the dropdown arrow next to **My Content**, select **Living Atlas**.
 
 The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of geographic information compiled and created by [Esri.](https://www.esri.com/en-us/home)
 
-*1*{: .circle .circle-blue} In the search bar, type “COVID-19 Canada” to see what layers may be available. Click on “Coronavirus COVID-19 Cases V2.” An information dialogue will open with information about this layer.   
+*3*{: .circle .circle-blue} Where it says **Search for layers**, type “COVID-19 Canada” and hit enter to see what layers may be available. Click on “Coronavirus COVID-19 Cases V2.” An information dialogue will open with information about this layer.   
 
 ![add_LA_data](../images/add_LA_data.png)
 
 *Note: If you only have a public ArcGIS account, you will have access to fewer layers in the Living Atlas.*
 
-*2*{: .circle .circle-blue} Scroll down to read about it. This layer is created and maintained by the Center for Systems Science and Engineering (CSSE) at the Johns Hopkins University, which is also maintaining the well known [Dashboard](https://coronavirus.jhu.edu/map.html) tracking COVID-19 cases and deaths across the world. This layer contains the same underlying data feeding that dashboard.
+*4*{: .circle .circle-blue} Scroll down to read about it. This layer is created and maintained by the Center for Systems Science and Engineering (CSSE) at the Johns Hopkins University, which is also maintaining the well known [Dashboard](https://coronavirus.jhu.edu/map.html) tracking COVID-19 cases and deaths across the world. This layer contains the same underlying data feeding that dashboard.
 
-*3*{: .circle .circle-blue} Click **Add to Map**, then click the back arrow above the **Add Data** search bar to return to the **Contents** pane.
+*5*{: .circle .circle-blue} Click the blue **Add to Map** button, then click the back arrow next to **Add layer** search bar to see the list of layers. ArcGIS Online will choose a symbology for you, and the legend using this symbology will appear in the **Symbology** pane to the right of the map.
 
-*4*{: .circle .circle-blue} If your extent is still showing the University of British Columbia campus, zoom out using the scroll on your mouse or by clicking the  minus button in the upper left until you see the single red circle representing British Columbia. If you'd like, you can zoom out to show the extent of the data for the entire world.
+*6*{: .circle .circle-blue} If your extent is still showing the University of British Columbia campus, zoom out using the scroll on your mouse or by clicking the minus button in the lower right until you see the single red circle representing British Columbia. If you'd like, you can zoom out to show the extent of the data for the entire world.
 
-You may notice that the data for Canada is less detailed than the data for the United States. Whereas in Canada, data is only reported at the province level in this dataset, in the U.S. it is reported at the state and county level.
+### *Reflection Question*
+(Click the text for the answer)
 
-*5*{: .circle .circle-blue} Click on **Content** in the upper left to see the different layers currently in the map.
-![content](../images/content.jpg)
+<details>
+<summary>You may notice that the data for Canada is less detailed than the data for the United States. Why is this?</summary>
 
-Next, we'll experiment with changing the basemap.
+ Whereas in Canada, data is only reported at the province level in this dataset, in the U.S. it is reported at the state and county level.
+</details>
+<br>
+
+In the next section, we'll change the basemap before we explore the data in the section after that.
