@@ -61,7 +61,7 @@ You can make adjustments to this symbology, but we'll accept the defaults for no
 
 Click **Done**.
 
-*7*{: .circle .circle-blue} Add the same filter we did to the original layer to make the symbology more meaningful, where the expression is Deaths greater than 10,000.
+*9*{: .circle .circle-blue} Add the same filter we did to the original layer to make the symbology more meaningful, where the expression is Deaths greater than 10,000.
 
 The [proportional](http://wiki.gis.com/wiki/index.php/Proportional_symbol_map) symbology is a good way to be able to immediately visually locate the areas with the greatest numbers of COVID-19-related deaths.
 
@@ -69,7 +69,7 @@ Be aware that it is easy to misrepresent data based on the symbology you choose 
 
 [ArcGIS Online Change Style Quick Reference](https://doc.arcgis.com/en/arcgis-online/create-maps/change-style.htm)
 
-*8*{: .circle .circle-blue} Save your map.
+*10*{: .circle .circle-blue} Save your map.
 
 Your map should end up looking something like this.
 
