@@ -10,6 +10,8 @@ There are a lot of resources available to further explore ArcGIS Online, some of
 
 ### ADDITIONAL RESOURCES
 
+[The tale of two ArcGIS Online map viewers: functionality guidance](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/tale-of-two-arcgis-online-map-viewers-functionality-guidance/)
+
 [Mapping coronavirus, responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
 
 [ArcGIS Online Relationship Style](https://enterprise.arcgis.com/en/portal/latest/use/style-numbers.htm#ESRI_SECTION1_C7FAB061D60344CAB6AC9A190DAED1D2)
@@ -36,6 +38,3 @@ Browse Esri's ArcGIS Online [lesson plan gallery](https://learn.arcgis.com/en/ga
 
 
 Thank you for attending today's workshop!
-
-
-

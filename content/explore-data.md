@@ -25,23 +25,22 @@ In the **Layers** pane, there are four layers associated with the data we added 
 
 *3*{: .circle .circle-blue} From the **Layers** pane, click the ellipsis (the three horizontal dots) next to the **Deaths** layer to expand the options available.
 
-*4*{: .circle .circle-blue} Click on **Show table** to open the attribute table for this layer.. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the up arrow at the top right of the table to see more rows at one time.
+*4*{: .circle .circle-blue} Click on **Show table** to open the attribute table for this layer.. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the up arrow at the top right of the table to see more rows at one time. Note that you can also click on individual symbols in the map to open a pop-up with the same attributes as exist in the table.
 
-*5*{: .circle .circle-blue} Click on the first row in the table and then click the three grey lines in the upper right of the table and select **Center on Selection**.
-Then click **Clear Selection**.
+ In Map Viewer Classic, you can use the attribute table to interact with and filter the data. In the new Map Viewer, which we are using, we'll use a separate tool called **Filter**.
 
-*6*{: .circle .circle-blue} Next, from the same place, select **Filter**. This will open a window where you can customize an expression to select only the records you specify.
+*5*{: .circle .circle-blue} Click on the third icon down in the far right pane to open the **Filter** widget.
 
 Let's filter the data in order to find those places in the world that have surpassed 10,000 deaths from COVID-19.
 
-*7*{: .circle .circle-blue} From the dropdown arrow on the left, select the **Deaths** field.
+*6*{: .circle .circle-blue} From the dropdown arrow on the right of the first field in the **Filter** pane, select the **Deaths** field and then click on **Replace**.
 
 From the dropdown arrow in the centre, select **is greater than**.
 
-In the far right field, type in **10000**.
+In the next field, type in **10000**.
 
-Then click **APPLY FILTER AND ZOOM TO**.
+Then click **Save**.
 
-Close the attribute table.
+The **Filter** pane will close, and the data in the map will reflect the parameters of the filter.
 
-You may notice that the black X symbolizing the **Deaths** layer is very hard to see. In the next section, we will change the symbology of this layer to make it more visible.
+You may notice that the black X symbolizing the **Deaths** layer is very hard to see. In the next section, we will change the symbology of this layer to make it more visible. Save your map first.
