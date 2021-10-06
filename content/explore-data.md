@@ -15,19 +15,17 @@ Click on the red circle located in British Columbia to view a pop-up containing 
 
 You'll notice that there are three entries for British Columbia with the same information.
 
-In the **Contents** pane on the left, there are four layers associated with the data we added from the Living Atlas.
+In the **Layers** pane, there are four layers associated with the data we added from the Living Atlas.
 
-*1*{: .circle .circle-blue} Uncheck the blue checkmarks next to every layer except the layer representing **Deaths**. You'll see that this layer is depicted using the symbol of a black X.
+*1*{: .circle .circle-blue} Hover over each layer next to the ellipsis on the right and click the eye symbol to hide every layer except the one representing **Deaths**. You'll see that this layer is depicted using the symbol of a black X.
 
-*2*{: .circle .circle-blue} Click on the first layer in the **Contents** pane to explore the data and the tools associated with each layer.
+*2*{: .circle .circle-blue} Click on the **Deaths** layer, and you'll notice the properties of this layer appear in another pane on the right side of the map. From this pane, you could also select another layer from the dropdown arrow at the top to view its properties.
 
 ![deathsLyr.jpg](../images/deathsLyr.jpg)
 
-The far left icon associated with the **Deaths** layer represents the legend.
+*3*{: .circle .circle-blue} From the **Layers** pane, click the ellipsis (the three horizontal dots) next to the **Deaths** layer to expand the options available.
 
-*3*{: .circle .circle-blue} If you click on it, the legend symbols will appear below the layer.
-
-*4*{: .circle .circle-blue} Hovering over the next icon reveals that clicking on this will open the attribute table. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the grey line at the top center to drag the table up in order to see more rows at one time.
+*4*{: .circle .circle-blue} Click on **Show table** to open the attribute table for this layer.. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the up arrow at the top right of the table to see more rows at one time.
 
 *5*{: .circle .circle-blue} Click on the first row in the table and then click the three grey lines in the upper right of the table and select **Center on Selection**.
 Then click **Clear Selection**.

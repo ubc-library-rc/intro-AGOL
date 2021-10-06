@@ -9,11 +9,11 @@ parent: Create a Web Map
 
 The **Topographic** layer represents the default basemap whenever you open a web map in AGOL. Let's change the basemap to something that looks better with the COVID-19 data.
 
-To Do 
+To Do
 {: .label .label-green }
-From the upper left, click on **Basemap** and select the **Light Gray Canvas**.
+From the left sidebar, click on **Basemap** and select the **Light Gray Canvas**.
 
-*1*{: .circle .circle-blue} Click on the **Save** dropdown arrow in the ribbon above the map and select **Save**.
+*1*{: .circle .circle-blue} Click on the **Save and open>Save** text in the left sidebar which should have a blue dot next to it, prompting you to save your map.
 
 You will need to give the map a title, add tags to make it discoverable later, and a summary.
 

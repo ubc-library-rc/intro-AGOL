@@ -18,6 +18,8 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
   - Embed a map in a Story Map
   - Add photos and text to a Story Map
 
+  *Please be aware that this workshop uses data about deaths due to COVID-19 to explore these learning objectives, a subject which might be difficult for some people.
+
 ### **Workshop Outline**
 
 - Create three web maps using ArcGIS Online
