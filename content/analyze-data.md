@@ -11,7 +11,7 @@ In ArcGIS Online, you can add data from the Living Atlas, curated by Esri, from 
 
 In this section, we want to continue exploring COVID-19 data, and deaths due to COVID-19, in Canada. We saw that the John Hopkins data only has provincial-level data for Canada, so let's see if we can find data with more detail.
 
-It turns out there are some other data available about COVID-19 in Canada. Some provide data for download, and some sites proivde visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
+It turns out there are some other data available about COVID-19 in Canada. Some provide data for download, and some sites provide visualizations or maps with the data available. Below is a list of just some of the COVID-19 data resources.
 
 [Esri COVID-19 Open Data](https://resources-covid19canada.hub.arcgis.com/pages/open-data)
 
@@ -27,13 +27,13 @@ It turns out there are some other data available about COVID-19 in Canada. Some 
 
 Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/health-region-summaries) that provides health region summaries from Esri's data hub for COVID-19 data in Canada.
 
-The map at the top of this page shows the extent of the data, and the **Overview** tab below shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset.
+The map associated with this dataset at the link above shows the extent of the data and the divisions of health region summaries. Clicking on **View Table** in the upper right will open the attribute table and shows us all of the attributes associated with this dataset. Notice the population data by age available for this dataset. Use the bar at the bottom of the table to scroll to the right.
 
-This will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html).
+Age-related data will be useful for trying to visualize the relationship between death due to COVID-19 and age since we know that [vulnerability increases with age, particularly over 60 years](https://www.canada.ca/en/public-health/services/publications/diseases-conditions/vulnerable-populations-covid-19.html).
 
 [StatCan found that 52% of excess deaths in Canada from March to June 2020](https://www.ctvnews.ca/health/coronavirus/canadians-age-85-and-older-account-for-over-half-of-excess-deaths-amid-covid-19-statcan-1.5205790), assumed to be due to COVID-19, were among those 85 and older, which is a specific age category in this dataset.
 
-To the left of the map, there is a download icon. If we click on this, a list of download options will appear on the left. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile, but there are several reasons to use the data in ArcGIS Online without ever downloading it, which may require using a desktop GIS application to manipulate the data before adding it back to ArcGIS Online.
+Note the download icon on the left side of the map interface. If we click on this, a list of download options will appear on the left. We see that this dataset is available in a number of different formats. To use this data in ArcGIS Online, we could download the data as a spreadsheet or a shapefile, but there are several reasons to use the data in ArcGIS Online without ever downloading it, which may require using a desktop GIS application to manipulate the data before adding it back to ArcGIS Online.
 
 Good reasons to use data available online through Esri include:
 - Popups that have already been configured appropriately.
@@ -42,45 +42,43 @@ Good reasons to use data available online through Esri include:
 
 We'll add this dataset as a [web service](https://doc.arcgis.com/en/arcgis-online/reference/arcgis-server-services.htm) hosted by Esri in ArcGIS Online to our map.
 
-*1*{: .circle .circle-blue} From the map, click the dropdown arrow next to the **Add** button and select **Add layer from web**.  
+*1*{: .circle .circle-blue} From the map you created in your ArcGIS Online account, click the **Add** button and select **Web service**.  
 
-*2*{: .circle .circle-blue} Copy and paste the following URL in the box and click **OK**.
+*2*{: .circle .circle-blue} Copy and paste the following URL in the box and click **Add to map** and then the **x** to close the dialog window.
 
 ```json
     https://services9.arcgis.com/pJENMVYPQqZZe20v/arcgis/rest/services/NewHybridRegionalHeathBoundaries/FeatureServer
 ```
 
-This layer may have a visibility range associated with it that requires you to zoom in to see it.
+This layer may have a visibility range associated with it that requires you to zoom in to see it. You can guess this might be the case if no new symbols show up in the map and/or if the name of the layer appears greyed out.
 
-*3*{: .circle .circle-blue} Click on the ellipsis on the right for this new layer and select **Set Visibility Range** and drag the slider on the left all the way to the left. Save your map.
+*3*{: .circle .circle-blue} Click the Layers button.
 
-*4*{: .circle .circle-blue} If the layer automatically opens in symbology mode, click **OK** to accept the default for now.
+If the properties for the new layer don't appear on the far right, click on the ellipsis on the right for this new layer and select **Show properties**.
+
+*4*{: .circle .circle-blue} Scroll down until you see **Visible range** and drag the slider all the way to the left. Save your map.
 
 Let's try and understand the severity of COVID-19 in Canada using this data.
 
 [Two measures used to assess severity of an infectious disease](https://www.who.int/news-room/commentaries/detail/estimating-mortality-from-covid-19) are the infection fatality ratio (IFR) and the case fatality ratio (CFR). We only have data to calculate the CFR.
 
-*5*{: .circle .circle-blue} First create a copy of this layer like we did in a previous step so we can create different layers with the data (hint: ellipsis > Copy).
+*5*{: .circle .circle-blue} Rename the layer to **Case Fatality Ratio (%)**.
 
-*6*{: .circle .circle-blue} Rename the copied layer to **Deaths Per Pop & Pop 85+**. We'll symbolize this layer later, so uncheck it for now.
+*6*{: .circle .circle-blue} Click on **Edit layer style** under the **Symbology** properties to the right of the map.
 
-*7*{: .circle .circle-blue} Using the original Health Region Summaries layer, click on the icon third from the left representing symbology, or **Change Style.**
-
-The CFR helps us understand how many people with a confirmed diagnosis of COVID-19 die as a result. [Because it is not equal to the number of people who actually have COVID-19, it is difficult to measure accurately](https://newslit.org/updates/case-fatality-rate-vs-mortality-rate/). Recognizing these limitations, we will use it as an indicator of which health regions in Canada have lower or higher case fatality rates.
+The case fatality ratio (CFR) helps us understand how many people with a confirmed diagnosis of COVID-19 die as a result. [Because it is not equal to the number of people who actually have COVID-19, it is difficult to measure accurately](https://newslit.org/updates/case-fatality-rate-vs-mortality-rate/). Recognizing these limitations, we will use it as an indicator of which health regions in Canada have lower or higher case fatality rates.
 
 The [formula](https://www.britannica.com/science/case-fatality-rate) for CFR takes the number of deaths divided by the number of cases and multiplies it by 100.
 
-*8*{: .circle .circle-blue} In the **Change Style** window, click the dropdown arrow under **Choose an attribute to show**.
+*7*{: .circle .circle-blue} Click the **x** next to **Cases Per 100K Population** and then **Expression**. This will open a new window where you can use the Arcade language to build expressions.
 
-*9*{: .circle .circle-blue} Select **Custom expression** at the very bottom. This will open a window where you can use the Arcade language to build expressions.
-
-*10*{: .circle .circle-blue} Copy and paste the following expression in the window.
+*8*{: .circle .circle-blue} Copy and paste the following expression in the window.
 
 ```json
     ($feature.Deaths / $feature.CaseCount * 100)
 ```
 
-*11*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **OK**.
+*9*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **Save** and then **OK**.
 
 The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [choropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area, to show the Case Fatality Ratio.
 
@@ -91,13 +89,15 @@ In choropleth mapping:
 
 You can read more about and see examples of choropleth [maps](https://arcg.is/15Xffe).
 
-*12*{: .circle .circle-blue} Click on **Counts and Amounts**, and you'll notice a dark cluster of health regions in eastern Canada.
+*10*{: .circle .circle-blue} Click on **Counts and Amounts (color)** to open the **Style options**, and you'll notice a dark cluster of health regions in eastern Canada.
 
-The default symbology uses **High to Low** which represents a range of percentages from low to high. Hovering over the *x* shows the average CFR across all health regions.
+The default symbology uses **High to Low** which represents a range of percentages from low to high. In the [histogram](https://en.wikipedia.org/wiki/Histogram) The *x* shows the average CFR across all health regions.
 
-*13*{: .circle .circle-blue} Select the **Above and Below** theme from the dropdown menu and notice how the algorithm selects breaks in the data that are more in line with what the histogram is telling us about the how the data is grouped.
+*11*{: .circle .circle-blue} Select the **Above and Below** theme from the dropdown menu and notice how the algorithm selects breaks in the data that are more in line with what the histogram is telling us about the how the data is grouped.
 
-This setting is telling us that green health regions on the map have lower than normal CFR rates and the darker red health regions have higher than normal CFR rates, while regions coloured in white reflect the average.
+*12*{: .circle .circle-blue} Under **Symbol style**, click the pencil icon to open a new window to select a different color ramp and choose the second one and then click **Done**.
+
+This color ramp using the **Above and below** theme is telling us that green health regions on the map have lower than normal CFR rates and the darker red health regions have higher than normal CFR rates, while regions coloured in white reflect the average.
 
 Do you think High and Low or Above and Below is a better representation of this data?
 
@@ -105,11 +105,11 @@ To learn more about these different themes and also about whether to classify da
 
 Let's now experiment with classifying the data.
 
-*14*{: .circle .circle-blue} Check the **Classify Data** box, which defaults to using a [Natural Breaks](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification) classification method which attempts to mathematically find "natural" classes that group together in a dataset. It also defaults to four classes.
+*13*{: .circle .circle-blue} Click on **Style options** again and toggle the **Classify Data** on, which will change the symbology, defaulting to the [Natural Breaks](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification) classification method which attempts to mathematically find "natural" classes that group together in a dataset. It also defaults to four classes.
 
 Notice the range of values represented in each class.
 
-*15*{: .circle .circle-blue} Now select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method, which creates classes with the same number of features. Notice the range of values using this classification, too.
+*14*{: .circle .circle-blue} Now select the [Quantile](http://wiki.gis.com/wiki/index.php/Quantile) classification method from the dropdown under **Method**, which creates classes with the same number of features. Notice the range of values using this classification, too.
 
 Classification is useful when we are asking specific questions of the data. In this case, what meaning does each class have for understanding the CFR across Canada? Is the data easier to understand classified or unclassified?
 
@@ -117,15 +117,15 @@ Classification may be more useful comparing CFRs across countries, for example, 
 
 Using the Above and Below option reveals which regions are above or below the average CFR across all regions.
 
-*16*{: .circle .circle-blue} Uncheck the **Classify** button and ensure that **Above and Below** is selected, click **OK** and then **Done**.
+*15*{: .circle .circle-blue} Toggle the **Classify** button off and choose the  **Above and Below** theme, then click, click **Done** twice. Save your map.
 
 Let's configure the popups to include the CFR.
 
-*17*{: .circle .circle-blue} Select **Configure Popup** by clicking on the ellipsis and click on **ADD** under **Attribute Expressions**.
+*16*{: .circle .circle-blue} Select the **Configure Popup** icon on the far right (5th one down) and click on **Manage Expressions** and then **Add expression**.
 
-*18*{: .circle .circle-blue} Edit the name to be **Case Fatality Ratio (%)**.
+*17*{: .circle .circle-blue} Edit the name to be **Case Fatality Ratio (%)**.
 
-*19*{: .circle .circle-blue} Copy and paste the following expression in the expression window and then click **OK**
+*18*{: .circle .circle-blue} Copy and paste the following expression in the expression window and then click **OK**
 
 ```json
     ($feature.Deaths / $feature.CaseCount * 100)
