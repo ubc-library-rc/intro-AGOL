@@ -130,6 +130,8 @@ Let's configure the popups to include the CFR.
 ```json
     ($feature.Deaths / $feature.CaseCount * 100)
 ```
+*19*{: .circle .circle-blue} Next click on **Fields list** and then **Select fields**. Click the new **Case Fatatlity Ratio (%)** field you just created and then **Done**.
+
 Now when you click on the popup, the CFR will appear at the bottom.
 
 Your map should look something like the image below, but keep in mind the data is constantly changing, so it won't look exactly the same.
