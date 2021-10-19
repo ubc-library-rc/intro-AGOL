@@ -28,4 +28,4 @@ On the right sidebar are search, measure, directions, and location icons. The ot
 
 *4*{: .circle .circle-blue} The left sidebar contains multiple tools with which to interact with data in the map. We'll explore these more later. You can expand both sidebars by clicking the double arrow at the bottom.
 
-Next we’ll try adding data to the map using different methods.
+We'll change the basemap in the next section.

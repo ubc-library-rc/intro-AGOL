@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add Population Data
-nav_order: 1
+nav_exclude: true
 parent: Analyzing Data
 ---
 

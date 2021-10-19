@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add Data From Living Atlas
-nav_order: 1
+nav_order: 2
 parent: Create a Web Map
 ---
 
@@ -37,4 +37,4 @@ The [Living Atlas](https://livingatlas.arcgis.com/en/) is a large collection of 
 </details>
 <br>
 
-In the next section, we'll change the basemap before we explore the data in the section after that.
+Next let's explore different ways of discovering the underlying data.

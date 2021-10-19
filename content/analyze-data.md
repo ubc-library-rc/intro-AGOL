@@ -66,7 +66,7 @@ Let's try and understand the severity of COVID-19 in Canada using this data.
 
 *6*{: .circle .circle-blue} Click on **Edit layer style** under the **Symbology** properties to the right of the map.
 
-The case fatality ratio (CFR) helps us understand how many people with a confirmed diagnosis of COVID-19 die as a result. [Because it is not equal to the number of people who actually have COVID-19, it is difficult to measure accurately](https://newslit.org/updates/case-fatality-rate-vs-mortality-rate/). Recognizing these limitations, we will use it as an indicator of which health regions in Canada have lower or higher case fatality rates.
+The case fatality ratio (CFR) helps us understand how many people with a confirmed diagnosis of COVID-19 die as a result. Because it is not equal to the number of people who actually have COVID-19, [it is difficult to measure accurately](https://newslit.org/updates/case-fatality-rate-vs-mortality-rate/). Recognizing these limitations, we will use it as an indicator of which health regions in Canada have lower or higher case fatality rates.
 
 The [formula](https://www.britannica.com/science/case-fatality-rate) for CFR takes the number of deaths divided by the number of cases and multiplies it by 100.
 
@@ -85,13 +85,13 @@ The symbology defaults to proportional symbols, but these overwhelm certain area
 In choropleth mapping:
 - The variable is usually quantitative.
 - A colour is associated with an attribute value.
-- the shading illustrates how a measurement varies across a geographic area.
+- Shading illustrates how a measurement varies across a geographic area.
 
 You can read more about and see examples of choropleth [maps](https://arcg.is/15Xffe).
 
 *10*{: .circle .circle-blue} Click on **Counts and Amounts (color)** to open the **Style options**, and you'll notice a dark cluster of health regions in eastern Canada.
 
-The default symbology uses **High to Low** which represents a range of percentages from low to high. In the [histogram](https://en.wikipedia.org/wiki/Histogram) The *x* shows the average CFR across all health regions.
+The default symbology uses **High to Low** which represents a range of percentages from low to high. In the [histogram](https://en.wikipedia.org/wiki/Histogram), the *x* represents the average CFR across all health regions.
 
 *11*{: .circle .circle-blue} Select the **Above and Below** theme from the dropdown menu and notice how the algorithm selects breaks in the data that are more in line with what the histogram is telling us about the how the data is grouped.
 
@@ -117,7 +117,7 @@ Classification may be more useful comparing CFRs across countries, for example, 
 
 Using the Above and Below option reveals which regions are above or below the average CFR across all regions.
 
-*15*{: .circle .circle-blue} Toggle the **Classify** button off and choose the  **Above and Below** theme, then click, click **Done** twice. Save your map.
+*15*{: .circle .circle-blue} Toggle the **Classify** button off and choose the  **Above and Below** theme, then click **Done** twice. Save your map.
 
 Let's configure the popups to include the CFR.
 
