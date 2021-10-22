@@ -25,7 +25,7 @@ They can be used as a presentation tool in place of PowerPoint, especially if yo
 
 In this section, we'll add the web maps we created to a Story Map and practice adding other content as well.
 
-First uncheck all the layers except **Coronavirus COVID-19 Cases V2 - Deaths Proportional** in your map and save it.
+First uncheck all the layers except **Deaths (proportional)** in your map and save it.
 
 There are a couple different ways to create a Story Map.
 
@@ -35,9 +35,9 @@ For this workshop, we'll use a different method.
 
 To Do
 {: .label .label-green }
-From the top left of your web map, click on the **Home** dropdown arrow and select **Content.**
+From the top left of your web map, click on the three horizontal lines dropdown arrow and then right-click on **Content,** selecting **Open in new tab**.
 
-*1*{: .circle .circle-blue} Click on the web map you created and just exited.
+*1*{: .circle .circle-blue} Click on the map you created and just exited listed in the contents.
 
 This will take you to the **Overview** page.
 
@@ -80,7 +80,7 @@ Copy and paste the text in the paragraphs below. Note that the numbers will have
 
 This will open up a window to allow you to choose which layers to show in this map.
 
-*11*{: .circle .circle-blue} Make sure all layers are off except **Case Fatality Ratio (%)** and **Populated Places**. Click the **Settings** wheel to turn the **Legend** on for this map and place it.
+*11*{: .circle .circle-blue} Make sure all layers are off except **Case Fatality Ratio (%)**. Click the **Settings** wheel to turn the **Legend** on for this map and place it.
 
 *12*{: .circle .circle-blue} Recaption this map as **Case Fatality Ratio (%)**
 

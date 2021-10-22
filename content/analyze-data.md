@@ -138,6 +138,8 @@ Your map should look something like the image below, but keep in mind the data i
 
 ![aboveBelow.png](../images/aboveBelow.png)
 
-It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
+It's important to keep in mind that the majority of Canada's population lives clustered along the southern belt of Canada, closer to the U.S. border and is not evenly distributed across health region summary boundaries. So a map like this does not do a good job of representing smaller populations in more northern regions of the country. These health regions summaries are better at representing what's happening in more populated areas.
 
-In the next section, we'll add some population data to help contextualize the CFR in these locations.
+We are limited by what we can do in ArcGIS Online to address this issue. For a great discussion on the importance of mapping COVID-19 data onto inhabited lands in Canada and how to go about it using desktop GIS software, see this blog post [How to Lie With COVID-19 Maps](https://gis.blog.ryerson.ca/2020/11/03/how-to-lie-with-covid-19-maps/).
+
+In the next section, we'll examine the relationship between two variables by using a form of symbology called bivariate choropleth.
