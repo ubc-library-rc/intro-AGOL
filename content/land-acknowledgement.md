@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 2
-title: Land acknowledgement 
+title: Land acknowledgement
 ---
 # Land acknowledgement
 
@@ -11,3 +11,5 @@ UBC Vancouver is located on the traditional, ancestral, and unceded territory of
 <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.268264,-123.157480" style="width:100%; height:300px; border:none;"></iframe>
 
 Please take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the Indigenous territories, languages, and treaties in your area.
+
+Please also explore the [Musqueam Territory Place Names Map](https://www.musqueam.bc.ca/our-story/our-territory/place-names-map/).

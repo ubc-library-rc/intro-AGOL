@@ -4,8 +4,6 @@ title: Outline
 nav_order: 1
 ---
 
-_This workshop is under development_.
-
 # Visualizing Data in ArcGIS Online
 
 ## OUTLINE
