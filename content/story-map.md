@@ -66,7 +66,7 @@ You might ask a question in the heading, such as **A Brief History of COVID-19**
 *7*{: .circle .circle-blue} Add text above the map by clicking on the plus sign and selecting **Text**.
 Copy and paste the text in the paragraphs below. Note that the numbers will have changed by the time you are doing this exercise.
 
-*The SARS-CoV-2 virus, more commonly known as COVID-19, originated in Wuhan, China in December 2019. Fourteen months later, there are a documented 109,887,743 cases around the world and 2,429,689 deaths. More than 61,867,144 people have recovered*
+*The SARS-CoV-2 virus, more commonly known as COVID-19, originated in Wuhan, China in December 2019. Nearly two years later, there are a documented 258,249,487 cases around the world and 5,159,012 deaths. There have been 7,423,757,252 vaccine doses administered.*
 
 *The most recent COVID-19 statistics are tracked in an Esri Dashboard hosted by John Hopkins University.*
 
@@ -99,7 +99,7 @@ You can also change some aspects of the design of your Story Map by clicking the
 
 *15*{: .circle .circle-blue} When you're done configuring your Story Map, click on **Preview** to see what it will look like outside of edit mode.
 
-*16*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to one or with the public.
+*16*{: .circle .circle-blue} By clicking **Publish**, you can choose to share your Story Map with your organization if your Esri account is linked to an organizational account or share it with the public.
 
 Your story map should end up looking something like this [one](https://arcg.is/mKjuy).
 

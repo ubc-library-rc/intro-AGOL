@@ -26,7 +26,7 @@ There are a lot of resources available to further explore ArcGIS Online, some of
 
 If you're interested in an Esri account through UBC, which would give you access to the desktop GIS software as well as an AGOL account, you can find out more by visiting this [UBC Software ArcGIS download page](http://gis.ubc.ca/software/).
 
-Check out the other [workshops](https://researchcommons.library.ubc.ca/workshops/) offered by the [Research Commons]( https://researchcommons.library.ubc.ca/) as well as [GIS consultations](https://researchcommons.library.ubc.ca/consultation-requests/) for individual GIS help.
+Check out the other [workshops](https://ubc-library-rc.github.io/) offered by the [Research Commons]( https://researchcommons.library.ubc.ca/) as well as [GIS consultations](https://researchcommons.library.ubc.ca/consultation-requests/) for individual GIS help.
 
 ### Esri Tutorials and Links
 

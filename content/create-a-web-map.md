@@ -6,7 +6,7 @@ has_children: true
 ---
 
 ## CREATE A WEB MAP
-A web map, simply put, is an interactive map. Esri's online platform, called ArcGIS Online, provides an easy way to create a web map. If you haven't done so already, sign into the ArcGIS Online (AGOL) public account you created before.
+A web map is an interactive map. Esri's online platform, called ArcGIS Online, provides an easy way to create a web map. If you haven't done so already, sign into the ArcGIS Online (AGOL) public account you created before.
 
 ![webMap1](../images/newViewer.png)
 

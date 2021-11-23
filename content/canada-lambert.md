@@ -18,7 +18,7 @@ Because we are now going to focus on Canada, let's use something that is more ap
 
 <p>&nbsp;</p>
 
- Let's try and find a basemap with the Lambert Conformal Conic projection by searching ArcGIS Online, since all of the basemaps in the gallery are Web Mercator.
+ Let's try and find a basemap with the Lambert Conformal Conic projection by searching ArcGIS Online, since all of the basemaps in the gallery are in Web Mercator.
 
 To Do
 {: .label .label-green }

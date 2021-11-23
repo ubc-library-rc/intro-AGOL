@@ -18,9 +18,9 @@ GIS has interdisciplinary applications.
 
 [Life Expectancy by County in the U.S.](https://ubc.maps.arcgis.com/home/webmap/viewer.html?webmap=af2472aaa9e94814b06e950db53f18f3)
 
-[CER Interactive Pipeline Map](https://neb-gis.maps.arcgis.com/apps/webappviewer/index.html?id=80c368d4b5ab46bc8b6905d025fbbfda)
+[CER Interactive Pipeline Map](https://neb-gis.maps.arcgis.com/apps/webappviewer/index.html?id=2d11fd4e6a7a4f4ba7fe6bdf51ae52de)
 
-[Mi'kmaw Place Names Digital Atlas](https://www.mapdev.ca/placenames/#/)
+[Mi'kmaw Place Names Digital Atlas](https://placenames.mapdev.ca/)
 
 ### **GIS Software**
 

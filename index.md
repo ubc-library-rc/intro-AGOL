@@ -9,7 +9,7 @@ nav_order: 1
 ## OUTLINE
 
 ### **Goals**
-This workshop introduces complete beginners to the [ArcGIS Online](https://www.arcgis.com/home/index.html) platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to be able to create a map, add their own data, and configure a Story Map. By the end of this workshop participants will be able to:
+This workshop introduces beginners to the [ArcGIS Online](https://www.arcgis.com/home/index.html) platform and tools. This workshop is intended for those unfamiliar with GIS software or code but who want to be able to create a map, add data and configure symbology, and create a Story Map. By the end of this workshop participants will be able to:
 
   - Discover and explore available geospatial data online
   - Add data to a map
@@ -23,7 +23,7 @@ This workshop introduces complete beginners to the [ArcGIS Online](https://www.a
 ### **Workshop Outline**
 
 - Create three web maps using ArcGIS Online
-- Add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/) and explore this dataset
+- Add and explore data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/)
 - Add data from ArcGIS Online and customize using different symbology
 - Create a story map using your web maps
 

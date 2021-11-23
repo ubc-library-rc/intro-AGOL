@@ -17,13 +17,11 @@ It turns out there are some other data available about COVID-19 in Canada. Some 
 
 [University of Toronto Libraries COVID-19 Data Resources](https://mdl.library.utoronto.ca/covid-19/resources)
 
-[Flatten](https://www.flatten.ca/)
-
 [COVID-19 in Canada](https://art-bd.shinyapps.io/covid19canada/)
 
 [COVID-19 Canada Open Data Working Group](https://opencovid.ca/)
 
-[Canada COVID-19 interactive growth rate explorer](https://mountainmath.ca/shiny/canada_covid-19/?_inputs_&level=%22province%22&metric=%22Confirmed%22&province=%2201%22&start_cutoff=100)
+[University of Calgary Research Resources for Tracking/Data](https://library.ucalgary.ca/c.php?g=715085&p=5098377)
 
 Because we're working in ArcGIS Online, let's take a look at a comprehensive [dataset](https://resources-covid19canada.hub.arcgis.com/datasets/health-region-summaries) that provides health region summaries from Esri's data hub for COVID-19 data in Canada.
 
@@ -80,7 +78,7 @@ The [formula](https://www.britannica.com/science/case-fatality-rate) for CFR tak
 
 *9*{: .circle .circle-blue} Click the **Edit** icon near the word **Custom** and rename this new field to **Case Fatality Ratio**. Click **Save** and then **OK**.
 
-The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [choropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area, to show the Case Fatality Ratio.
+The symbology defaults to proportional symbols, but these overwhelm certain areas of the map. One option might be to resize these symbols, but we are going to experiment with [choropleth](http://wiki.gis.com/wiki/index.php/Choropleth_map) symbology, in which areas are shaded or patterned proportionally to the value of a variable measured for each area.
 
 In choropleth mapping:
 - The variable is usually quantitative.
@@ -130,7 +128,7 @@ Let's configure the popups to include the CFR.
 ```json
     ($feature.Deaths / $feature.CaseCount * 100)
 ```
-*19*{: .circle .circle-blue} Next click on **Fields list** and then **Select fields**. Click the new **Case Fatatlity Ratio (%)** field you just created and then **Done**.
+*19*{: .circle .circle-blue} Click the back arrow and then click on **Fields list** and then **Select fields**. Click the new **Case Fatality Ratio (%)** field you just created and then **Done**.
 
 Now when you click on the popup, the CFR will appear at the bottom.
 

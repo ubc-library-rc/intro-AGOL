@@ -25,7 +25,7 @@ In the **Layers** pane, there are four layers associated with the data we added 
 
 *3*{: .circle .circle-blue} From the **Layers** pane, click the ellipsis (the three horizontal dots) next to the **Deaths** layer to expand the options available.
 
-*4*{: .circle .circle-blue} Click on **Show table** to open the attribute table for this layer.. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the up arrow at the top right of the table to see more rows at one time. Note that you can also click on individual symbols in the map to open a pop-up with the same attributes as exist in the table.
+*4*{: .circle .circle-blue} Click on **Show table** to open the attribute table for this layer. The table, which contains the underlying data in spreadsheet form, will open at the bottom of your screen. You can click on the up arrow at the top right of the table to see more rows at one time. Note that you can also click on individual symbols in the map to open a pop-up with the same attributes as exist in the table.
 
  In Map Viewer Classic, you can use the attribute table to interact with and filter the data. In the new Map Viewer, which we are using, we'll use a separate tool called **Filter**.
 
@@ -33,7 +33,9 @@ In the **Layers** pane, there are four layers associated with the data we added 
 
 Let's filter the data in order to find those places in the world that have surpassed 10,000 deaths from COVID-19.
 
-*6*{: .circle .circle-blue} From the dropdown arrow on the right of the first field in the **Filter** pane, select the **Deaths** field and then click on **Replace**.
+*6*{: .circle .circle-blue} Click on **Add expression**.
+
+*7*{: .circle .circle-blue} From the dropdown arrow on the right of the first field in the **Filter** pane, select the **Deaths** field and then click on **Replace**.
 
 From the dropdown arrow in the centre, select **is greater than**.
 
