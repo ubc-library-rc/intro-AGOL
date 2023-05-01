@@ -16,6 +16,7 @@ The **Styles** pane will open.
 
 *2*{: .circle .circle-blue} Click on the **Current style**, which should be **Location (single symbol)**.
 
+
 *3*{: .circle .circle-blue} Click on the pencil icon under the **Symbol style** field that appears to change the symbology.
 
 Under **Basic shapes**, select the circle.
@@ -23,6 +24,8 @@ Under **Basic shapes**, select the circle.
 Change the size to **12 points** and select black for the colour.
 
 If there is any transparency for the symbol by default, ensure this is set to 0.
+
+<img src="./images/symbology1.jpg" alt="fig1" style="height: 500px; width:300px;"/>
 
 *4*{: .circle .circle-blue} Click **Done**, then **Done** again and make sure to save your map.
 
